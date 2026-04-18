@@ -1,4 +1,4 @@
-﻿name: Firebase App Hosting Rollout
+name: Firebase App Hosting Rollout
 
 on:
   push:

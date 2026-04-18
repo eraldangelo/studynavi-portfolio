@@ -1,4 +1,4 @@
-﻿name: Production Uptime Check
+name: Production Uptime Check
 
 on:
   schedule:

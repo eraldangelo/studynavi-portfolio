@@ -1,4 +1,4 @@
-﻿param(
+param(
   [string]$ProjectId = "your-firebase-project-id",
   [string]$SourceBackend = "studio",
   [string]$SourceLocation = "us-central1",

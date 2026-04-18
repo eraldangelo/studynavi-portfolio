@@ -1,4 +1,4 @@
-﻿name: Ops Drift Check
+name: Ops Drift Check
 
 on:
   schedule:

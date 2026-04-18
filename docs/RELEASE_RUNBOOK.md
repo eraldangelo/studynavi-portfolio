@@ -1,4 +1,4 @@
-﻿# Release Runbook
+# Release Runbook
 
 Purpose: deterministic, auditable staging -> production promotion for StudyNavi on Firebase App Hosting.
 

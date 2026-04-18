@@ -1,4 +1,4 @@
-﻿# Operations Handover
+# Operations Handover
 
 Purpose: transfer ongoing StudyNavi ownership with enforceable run procedures, not tribal knowledge.
 

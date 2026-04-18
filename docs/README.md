@@ -1,4 +1,4 @@
-﻿# StudyNavi
+# StudyNavi
 
 StudyNavi is a consultant-facing Next.js application used to run a guided study-planning wizard and generate downloadable study-plan PDFs for students.
 

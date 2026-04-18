@@ -1,4 +1,4 @@
-﻿const BASE_URL = (process.env.APP_BASE_URL || 'https://your-app.example.com/')
+const BASE_URL = (process.env.APP_BASE_URL || 'https://your-app.example.com/')
   .replace(/\/+$/, '');
 
 function normalize(urlPath) {

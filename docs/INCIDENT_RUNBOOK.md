@@ -1,4 +1,4 @@
-﻿# Incident Runbook
+# Incident Runbook
 
 Purpose: reduce mean time to detect and recover for production issues.
 
