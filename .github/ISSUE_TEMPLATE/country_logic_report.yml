@@ -1,0 +1,54 @@
+name: Country Logic Report
+description: Report computation mismatch for AU/CA/NZ/IE logic.
+title: "[Country Logic] "
+labels:
+  - country-logic
+  - needs-triage
+body:
+  - type: dropdown
+    id: destination
+    attributes:
+      label: Destination
+      options:
+        - Australia
+        - Canada
+        - New Zealand
+        - Ireland
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Input Snapshot
+      description: Paste relevant wizard answers (payment type, scholarship, dependents, fees).
+      placeholder: JSON or key-value list
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Computation
+      description: Expected totals and why.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Computation
+      description: Actual totals shown in UI/PDF.
+    validations:
+      required: true
+  - type: checkboxes
+    id: where_seen
+    attributes:
+      label: Where mismatch occurs
+      options:
+        - label: Payment details card
+        - label: Computation sheet view
+        - label: Generated PDF
+        - label: Regression script output
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Related issue/PR, screenshots, and formulas used.

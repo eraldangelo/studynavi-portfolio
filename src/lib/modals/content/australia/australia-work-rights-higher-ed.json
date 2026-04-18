@@ -1,0 +1,233 @@
+{
+  "BACHELOR_WORK_RIGHTS_SINGLE": {
+    "id": "BACHELOR_WORK_RIGHTS_SINGLE",
+    "title": "Bachelor's Student Work Rights (Subclass 500)",
+    "description": [
+      "For students studying a full-time Bachelor's degree (Level 7) in Australia.",
+      "**The \"48-Hour Fortnight\" Rule**",
+      {
+        "list": [
+          "**Definition of a Fortnight:** A 14-day period starting on a Monday.",
+          "**While Course is in Session:** The student can work a maximum of 48 hours per fortnight.",
+          "**The Flexibility:** The student can work 20 hours one week and 28 the next, as long as the 14-day total does not exceed 48."
+        ]
+      },
+      "**Holiday Periods**",
+      {
+        "list": [
+          "**Unlimited Work:** During official school breaks (Summer and Winter holidays), the student can work unlimited hours (full-time)."
+        ]
+      },
+      "**Pay & Minimum Wage (2025/2026)**",
+      {
+        "list": [
+          "**National Minimum Wage:** $24.95 AUD per hour (current rate)."
+        ]
+      },
+      "**Key Conditions**",
+      {
+        "list": [
+          "**No Working Early:** The student cannot start working until their course officially begins, even if they arrive in Australia weeks early.",
+          "**TFN Required:** The student needs a Tax File Number (TFN) to be paid legally and avoid being taxed at the highest rate."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Work rights info",
+    "hideDefaultCloseButton": true
+  },
+  "BACHELOR_WORK_RIGHTS_DEPENDENT": {
+    "id": "BACHELOR_WORK_RIGHTS_DEPENDENT",
+    "title": "Bachelor's Student Work Rights (Subclass 500)",
+    "description": [
+      "For students studying a full-time Bachelor's degree (Level 7) in Australia.",
+      "**The \"48-Hour Fortnight\" Rule**",
+      {
+        "list": [
+          "**Definition of a Fortnight:** A 14-day period starting on a Monday.",
+          "**While Course is in Session:** The student can work a maximum of 48 hours per fortnight.",
+          "**The Flexibility:** The student can work 20 hours one week and 28 the next, as long as the 14-day total does not exceed 48."
+        ]
+      },
+      "**Holiday Periods**",
+      {
+        "list": [
+          "**Unlimited Work:** During official school breaks (Summer and Winter holidays), the student can work unlimited hours (full-time)."
+        ]
+      },
+      "**Dependent Work Rights**",
+      "For spouses or de facto partners of students enrolled in a Bachelorâ€™s degree.",
+      "**The Work Limit: 48 Hours per Fortnight**",
+      {
+        "list": [
+          "**The Rule:** Dependents of Bachelorâ€™s students are limited to 48 hours per fortnight at all times.",
+          "**No \"Unlimited\" Holidays:** This is the most important distinction. While the primary student can work unlimited hours during university breaks, the dependent is always capped at 48 hours per fortnight, even during the summer/winter holidays."
+        ]
+      },
+      "**Pay & Minimum Wage (2025/2026)**",
+      {
+        "list": [
+          "**National Minimum Wage:** $24.95 AUD per hour (current rate)."
+        ]
+      },
+      "**Key Conditions**",
+      {
+        "list": [
+          "**No Working Early:** The student cannot start working until their course officially begins, even if they arrive in Australia weeks early.",
+          "**TFN Required:** Both the student and the dependent must apply for their own Tax File Number (TFN)."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Work rights info",
+    "hideDefaultCloseButton": true
+  },
+  "MASTERS_WORK_RIGHTS_SINGLE": {
+    "id": "MASTERS_WORK_RIGHTS_SINGLE",
+    "title": "Masterâ€™s Coursework Work Rights (Subclass 500)",
+    "description": [
+      "For students enrolled in a full-time Master's degree (Coursework) in Australia.",
+      "**The \"48-Hour Fortnight\" Rule**",
+      {
+        "list": [
+          "**While Course is in Session:** The student can work a maximum of 48 hours per fortnight.",
+          "**Holiday Periods:** The student can work unlimited hours during official university breaks.",
+          "**Calculation:** This is a rolling 14-day period starting on a Monday. The student must ensure that any two-week block does not exceed 48 hours total."
+        ]
+      },
+      "**Pay & Minimum Wage (2025/2026)**",
+      {
+        "list": [
+          "**National Minimum Wage:** $24.95 AUD per hour (current rate)."
+        ]
+      },
+      "**Key Conditions**",
+      {
+        "list": [
+          "**No Working Early:** The student cannot start working until their course officially begins, even if they arrive in Australia weeks early.",
+          "**TFN Required:** The student needs a Tax File Number (TFN) to be paid legally and avoid being taxed at the highest rate."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Work rights info",
+    "hideDefaultCloseButton": true
+  },
+  "MASTERS_WORK_RIGHTS_DEPENDENT": {
+    "id": "MASTERS_WORK_RIGHTS_DEPENDENT",
+    "title": "Masterâ€™s Coursework Work Rights (Subclass 500)",
+    "description": [
+      "For students enrolled in a full-time Master's degree (Coursework) in Australia.",
+      "**The \"48-Hour Fortnight\" Rule**",
+      {
+        "list": [
+          "**While Course is in Session:** The student can work a maximum of 48 hours per fortnight.",
+          "**Holiday Periods:** The student can work unlimited hours during official university breaks.",
+          "**Calculation:** This is a rolling 14-day period starting on a Monday. The student must ensure that any two-week block does not exceed 48 hours total."
+        ]
+      },
+      "**The \"Unlimited\" Benefit (For the Dependent)**",
+      {
+        "list": [
+          "**Full-Time Rights:** Spouses or de facto partners of Masterâ€™s Coursework students have unlimited work rights.",
+          "**Year-Round:** Unlike the student, the dependent can work full-time even while the semester is in session.",
+          "**Note:** The dependent can only start working after the studentâ€™s course has officially commenced."
+        ]
+      },
+      "**Pay & Minimum Wage (2025/2026)**",
+      {
+        "list": [
+          "**National Minimum Wage:** $24.95 AUD per hour (current rate)."
+        ]
+      },
+      "**Key Conditions**",
+      {
+        "list": [
+          "**No Working Early:** The student cannot start working until their course officially begins, even if they arrive in Australia weeks early.",
+          "**TFN Required:** Both the student and the dependent must apply for their own Tax File Number (TFN)."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Work rights info",
+    "hideDefaultCloseButton": true
+  },
+  "MASTERS_RESEARCH_WORK_RIGHTS": {
+    "id": "MASTERS_RESEARCH_WORK_RIGHTS",
+    "title": "Masterâ€™s by Research Work Rights (Subclass 500)",
+    "description": [
+      "For students enrolled in a postgraduate research degree in Australia.",
+      "**The \"Unlimited\" Rule (For the Student)**",
+      {
+        "list": [
+          "**No Hourly Cap:** The student has unlimited work rights year-round.",
+          "**No Semester Restrictions:** The student does not have to wait for \"official breaks\" to work full-time. They can work as many hours as they like from the day their course starts.",
+          "**Research Focus:** While the student can work unlimited hours, they must still meet their research milestones and maintain satisfactory progress with their thesis."
+        ]
+      },
+      "**Unlimited Freedom (For the Dependent)**",
+      {
+        "list": [
+          "**Full-Time Rights:** Spouses or de facto partners of Masterâ€™s by Research students also have unlimited work rights.",
+          "**Any Industry:** The student's partner can work in any professional or casual field for any number of hours.",
+          "**Note:** The dependent can only start working after the studentâ€™s course has officially commenced."
+        ]
+      },
+      "**Pay & Minimum Wage (2025/2026)**",
+      {
+        "list": [
+          "**National Minimum Wage:** $24.95 AUD per hour (current rate)."
+        ]
+      },
+      "**Key Conditions**",
+      {
+        "list": [
+          "**Course Commencement:** The student cannot start working until their research program has officially begun.",
+          "**TFN Required:** The student needs a Tax File Number (TFN) to be paid legally and avoid being taxed at the highest rate."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Work rights info",
+    "hideDefaultCloseButton": true
+  },
+  "PHD_WORK_RIGHTS": {
+    "id": "PHD_WORK_RIGHTS",
+    "title": "PhD Student Work Rights (Subclass 500)",
+    "description": [
+      "For students enrolled in a Doctoral Degree in Australia.",
+      "**The \"Unlimited\" Rule (For the Student)**",
+      {
+        "list": [
+          "**No Hourly Cap:** As a PhD student, they have unlimited work rights all year round.",
+          "**No \"Term-Time\" Limits:** The student does not have to follow the 48-hour fortnight rule. They can work full-time from the day their course officially commences.",
+          "**Thesis Marking:** The student maintains these unlimited work rights even after they submit their thesis, as long as their visa remains valid while they wait for their results."
+        ]
+      },
+      "**Unlimited Freedom (For the Dependent)**",
+      {
+        "list": [
+          "**Unlimited Work:** Spouses or de facto partners of PhD students also have unlimited work rights.",
+          "**Any Industry:** The student's partner can work in any professional or casual field for any number of hours.",
+          "**Note:** The dependent can only start working after the studentâ€™s course has officially commenced."
+        ]
+      },
+      "**Pay & Minimum Wage (2025/2026)**",
+      {
+        "list": [
+          "**National Minimum Wage:** $24.95 AUD per hour (current rate)."
+        ]
+      },
+      "**Key Conditions**",
+      {
+        "list": [
+          "**Course Commencement:** The student cannot start working until their research program has officially begun.",
+          "**TFN Required:** The student needs a Tax File Number (TFN) to be paid legally and avoid being taxed at the highest rate."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "PhD work rights info",
+    "hideDefaultCloseButton": true
+  }
+}

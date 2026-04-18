@@ -1,0 +1,202 @@
+{
+  "AUSTRALIA_AGE_LIMIT_INFO": {
+    "id": "AUSTRALIA_AGE_LIMIT_INFO",
+    "title": "Age Considerations for Australian Visas",
+    "description": [
+      "Age is a critical factor for the Temporary Graduate Visa (subclass 485) in Australia.",
+      "**For Students Over 35:**",
+      {
+        "list": [
+          "**If the student holds a bachelorâ€™s degree from a Level 1 institution in the Philippines:** Advise them to consider a **Master by Research or PhD program**. The age limit for the Temporary Graduate Visa in these streams is 50, whereas for coursework-based degrees, it is 35.",
+          "**If the student does not have a qualifying bachelorâ€™s degree:** Inform them that insisting on Australia carries a high risk. They will likely be **ineligible for the Temporary Graduate Visa**, and they should be prepared to return to the Philippines after their studies.",
+          "**Alternative Destinations:** For students over 35 without a direct pathway to a Master by Research or whose qualifications are from lower-level institutions, it is wise to advise that other countries have less strict age-related visa requirements."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Age warning illustration",
+    "hideDefaultCloseButton": true
+  },
+  "AUSTRALIA_VISA_PROCESSING_TIME": {
+    "id": "AUSTRALIA_VISA_PROCESSING_TIME",
+    "title": "Student Visa Processing Time",
+    "description": [
+      "For more information about the student visa processing time for Australia, please visit the [Global visa processing time](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-processing-times/global-visa-processing-times)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Visa processing time info",
+    "hideDefaultCloseButton": true
+  },
+  "AUSTRALIA_BIOMETRICS_INFO": {
+    "id": "AUSTRALIA_BIOMETRICS_INFO",
+    "title": "Australia Visa: Biometrics (Philippines)",
+    "description": [
+      "The digital capture of the student's fingerprints and facial image.",
+      "**When to Book**",
+      {
+        "list": [
+          "**The Trigger:** The student can only book this appointment **after** they have lodged their visa application and received the \"Requirement to Provide Personal Identifiers\" (Biometric Request Letter) via their ImmiAccount.",
+          "**The Deadline:** The student usually has only **14 days** from the date of the letter to complete this step."
+        ]
+      },
+      "**Locations in the Philippines**",
+      "VFS Global operates three main centers for Australian biometrics:",
+      "Manila: 6th Floor, Makati Circuit Corporate Center Tower Two, Makati City.",
+      "Cebu: (New Location as of Nov 2025) Unit 01-04, 7th Floor, Faustina Center, Bonifacio District, F. Cabahug St., Kasambagan, Cebu City.",
+      "Davao: VFS Global, Davao City (Check VFS portal for latest specific building address).",
+      "**How to book**",
+      "Student needs to create an account here [https://visa.vfsglobal.com/phl/en/aus/register](https://visa.vfsglobal.com/phl/en/aus/register)",
+      "**Payment:** Paid at the VFS center in PHP (Cash, Debit, or Credit Card are usually accepted).",
+      "**What to Bring (Mandatory)**",
+      {
+        "list": [
+          "**Original Passport:** Must be the same one used in the visa application.",
+          "**Biometric Request Letter:** The letter from the Department of Home Affairs containing the student's VLN/HAP ID.",
+          "**Appointment Confirmation:** The printed or digital copy from the VFS booking system."
+        ]
+      },
+      "**Critical Rules for the Day**",
+      {
+        "list": [
+          "**No \"Decorations\":** Ensure fingertips are free from cuts, bandages, or temporary decorations like henna (mehndi), as these interfere with the scanner.",
+          "**Facial Image:** The student's face must be clearly visible. They may be asked to remove glasses or head coverings (unless worn for religious reasons, in which case the face from chin to eyebrows must still be visible).",
+          "**Minors:** Students under 18 years old must be accompanied by a parent or legal guardian."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Biometrics information",
+    "hideDefaultCloseButton": true
+  },
+  "AUSTRALIA_VISA_LODGEMENT_INFO": {
+    "id": "AUSTRALIA_VISA_LODGEMENT_INFO",
+    "title": "Australia Visa Lodgement: Philippines",
+    "description": [
+      "For Filipino students applying for the **Subclass 500 Student Visa**.",
+      "**The Pre-Lodgement Essentials**",
+      "Our team will help the student pre-lodge their information on [IMMI](https://online.immi.gov.au/lusc/login). Before clicking **\"Submit,\"** the student must double-check all the information entered.",
+      "Since we already have most of the student's required documents, we will upload them and request any additional documents needed.",
+      "Please prepare the Genuine Student Statement, which includes the following:",
+      {
+        "list": [
+          "**Current Circumstances:** Details about their family, community, and employment ties in the Philippines.",
+          "**Why choose Australia?** An explanation is needed if a similar course is available in Manila or Cebu.",
+          "**Course & Provider Choice:** Why this specific course and this specific college? The student must show they researched the modules and the university.",
+          "**Value to Future Career:** How will this degree directly help them get a better job or a higher salary in the Philippines? Be specific about job titles and expected companies.",
+          "**Study History:** If they have a gap in their studies or are changing fields (e.g., from Nursing to Business), they must explain the \"logic\" behind the switch.",
+          "**Other Relevant Info:** A \"catch-all\" box for anything else that proves they are a real student (e.g., specific research theyâ€™ve done or professional memberships)."
+        ]
+      },
+      "If the school on the [document checklist tool](https://immi.homeaffairs.gov.au/visas/web-evidentiary-tool) requires financial documents, our team will also collect those documents for upload."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Visa lodgement information",
+    "hideDefaultCloseButton": true
+  },
+  "AUSTRALIA_FINANCIAL_CAPACITY_INFO": {
+    "id": "AUSTRALIA_FINANCIAL_CAPACITY_INFO",
+    "title": "Financial Capacity Information",
+    "description": [
+      "For more information about Financial Capacity in Australia, please visit: [https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1196&fbclid=](https://immi.homeaffairs.gov.au/news-media/archive/article?itemId=1196&fbclid=)"
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Financial capacity information",
+    "primaryButtonText": "Acknowledge"
+  },
+  "AUSTRALIA_RISK_ACKNOWLEDGEMENT": {
+    "id": "AUSTRALIA_RISK_ACKNOWLEDGEMENT",
+    "title": "Risk Acknowledgment",
+    "description": [
+      "Please inform the student of the following risks:",
+      {
+        "list": [
+          "**Sponsor Requirements:** Schools in Australia and the embassy often require **proof of funds from close relatives**.",
+          "**Higher-Risk Sponsors:** If the sponsor is a family friend, fiancÃ©, in-law, or distant relative, this path carries a **significantly higher risk of visa refusal** due to extensive documentation requirements.",
+          "**Required Documents:** The specific documents needed for financial sponsorship will be discussed in detail in Step 8."
+        ]
+      },
+      "Does the student understand and agree to proceed despite these risks?"
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Risk acknowledgment illustration",
+    "primaryButtonText": "Yes, Proceed",
+    "secondaryButtonText": "No, Cancel"
+  },
+  "AUSTRALIA_EVIDENCE_OF_FUNDS": {
+    "id": "AUSTRALIA_EVIDENCE_OF_FUNDS",
+    "title": "Evidence of Funds Information",
+    "description": [
+      "To determine if the school requires proof of funds, please check the school's name using the [Document Checklist Tool](https://immi.homeaffairs.gov.au/visas/web-evidentiary-tool)",
+      "**Note!**",
+      "Set the expectation for the student that even if the Document Checklist Tool indicates that proof of funds is not required for the school application, the case officer may still request financial documents under **Section 56 (Request for more information)** during the visa application process.",
+      "To avoid potential visa withdrawal, it is **highly recommended that the student prepares their financial documents regardless**."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Evidence of funds information",
+    "primaryButtonText": "Acknowledge"
+  },
+  "AUSTRALIA_MD115_INFO": {
+    "id": "AUSTRALIA_MD115_INFO",
+    "title": "Important Visa Processing Update (MD 115)",
+    "description": [
+      "Due to **Ministerial Direction 115**, please inform the student to apply to their school and for their visa as soon as possible.",
+      "Visa processing is now on a **first-come, first-served basis**.",
+      "Applying earlier can lead to faster visa processing and help avoid potential delays from last-minute applications.",
+      "For more details, please visit: [https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-processing-times/visa-processing-priorities/student-visa](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-processing-times/visa-processing-priorities/student-visa)"
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Visa processing update illustration",
+    "primaryButtonText": "Acknowledge"
+  },
+  "AUSTRALIA_MEDICAL_EXAM_INFO": {
+    "id": "AUSTRALIA_MEDICAL_EXAM_INFO",
+    "title": "Australia Visa: Medical Examination (Philippines)",
+    "description": [
+      "Required for all Filipino students to meet the Australian health requirement.",
+      "**The \"Upfront Medical\" Option**",
+      "Students do not have to wait to lodge their visa to get a Medical Request. They can complete their medical exam before lodging the visa.",
+      "How it works: Use the \"[My Health Declarations](https://immi.homeaffairs.gov.au/supporting/files/my-health-declarations-form.pdf)\" service in ImmiAccount to generate a HAP ID before submitting the visa application.",
+      "[red warning icon] Critical Requirement: The information provided for the Upfront Medical (Name, Passport Number, Birthdate) must be 100% identical to the information used in the final visa application. Any discrepancy can cause \"identity concerns\" in the eMedical system and the previous medical will be voided.",
+      "**Authorized Panel Clinics**",
+      "In the Philippines, the student can only go to specific \"Panel Physicians.\" They cannot go to their family doctor.",
+      "**Manila**",
+      {
+        "list": [
+          "[St. Lukeâ€™s Medical Center Extension Clinic (SLEC) â€“ Ermita or BGC](https://slec.ph/registration/other/)",
+          "[IOM Manila Health Centre â€“ Makati](https://philippines.iom.int/manila-health-centre)",
+          "[Nationwide Health Systems (NHS) â€“ Makati](https://nhsgroup.ph/makati.html)"
+        ]
+      },
+      "**Cebu**",
+      {
+        "list": [
+          "[Nationwide Health Systems (NHS) â€“ Cebu City](https://nhsgroup.ph/cebu.html)"
+        ]
+      },
+      "**Davao**",
+      {
+        "list": [
+          "[Nationwide Health Systems (NHS) â€“ Davao](https://nhsgroup.ph/davao.html)"
+        ]
+      },
+      "**Baguio**",
+      {
+        "list": [
+          "[Nationwide Health Systems (NHS) â€“ Baguio](https://nhsgroup.ph/baguio.html)"
+        ]
+      },
+      "**What to bring?**",
+      {
+        "list": [
+          "**HAP ID Letter:** Printed from the student's ImmiAccount.",
+          "**Original Passport:** Photocopies are not accepted.",
+          "**2â€“3 Passport Photos:** White background (though some clinics take digital photos on-site).",
+          "**Medical Records:** If the student has a history of TB, surgery, or chronic illness, they must bring the official medical reports/certificates."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Medical exam information",
+    "hideDefaultCloseButton": true
+  }
+}

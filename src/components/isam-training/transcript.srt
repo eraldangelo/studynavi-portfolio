@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:16,100
+In this training, we’ll be introducing ISAM — our internal tool designed to manage and track a student’s progress end-to-end, starting from school application all the way to visa application.
+
+2
+00:00:16,100 --> 00:00:32,200
+ISAM helps us keep everything organized, clear, and updated across the team.
+
+3
+00:00:32,200 --> 00:01:52,700
+When we encode data correctly and consistently, we make it easier to monitor student progress, spot missing requirements early, coordinate actions between team members, and generate reliable updates for reporting and decision-making.
+
+4
+00:01:52,700 --> 00:02:08,800
+Throughout this module, we’ll walk you through the necessary steps and the best practices for encoding student information efficiently — so the data is complete, accurate, and easy to understand.
+
+5
+00:02:08,800 --> 00:02:24,900
+Our goal is simple: by the end of this training, you’ll be confident using ISAM in a way that ensures every record you encode meets the standard that the management team expects — clean, consistent, and dependable.
+
+6
+00:02:24,900 --> 00:02:41,000
+So whenever you’re ready, let’s get started — and I’ll guide you step-by-step through ISAM and how to use it properly.

@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-04-09T00:00:00.000Z",
+  "docs": {
+    "australia": {
+      "visaFeesAUD": {
+        "studentVisaFee": 1600
+      }
+    },
+    "canada": {
+      "visaFeesCAD": {
+        "studentVisaFee": 150
+      }
+    },
+    "ireland": {
+      "visaFeesEUR": {
+        "studentVisaFee": 60
+      }
+    },
+    "new-zealand": {
+      "visaFeesNZD": {
+        "studentVisaFee": 430
+      }
+    }
+  }
+}
+

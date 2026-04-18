@@ -1,0 +1,52 @@
+name: Quality Gate
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  quality-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: read
+    concurrency:
+      group: quality-gate-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+
+      - name: Use Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Run full quality gate
+        run: npm run verify:smoke
+
+      - name: Upload ts-prune report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ts-prune-report
+          path: reports/ts-prune-report.txt
+          if-no-files-found: ignore
+
+      - name: Upload Playwright artifacts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: playwright-artifacts-smoke
+          path: |
+            test-results/**
+            playwright-report/**
+          if-no-files-found: ignore

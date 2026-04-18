@@ -1,0 +1,36 @@
+{
+  "displayName": "StudyNavi API failures spike",
+  "documentation": {
+    "content": "Triggered when API runtime alerts spike. Check API route logs and error rate before rolling forward.",
+    "mimeType": "text/markdown"
+  },
+  "conditions": [
+    {
+      "displayName": "API runtime alerts > 12 in 5m",
+      "conditionThreshold": {
+        "filter": "metric.type=\"logging.googleapis.com/user/studynavi_api_failures\" AND resource.type=\"cloud_run_revision\"",
+        "comparison": "COMPARISON_GT",
+        "thresholdValue": 12,
+        "duration": "300s",
+        "aggregations": [
+          {
+            "alignmentPeriod": "300s",
+            "perSeriesAligner": "ALIGN_SUM"
+          }
+        ],
+        "trigger": {
+          "count": 1
+        }
+      }
+    }
+  ],
+  "combiner": "OR",
+  "enabled": true,
+  "severity": "ERROR",
+  "alertStrategy": {
+    "autoClose": "1800s"
+  },
+  "notificationChannels": [
+    "projects/PROJECT_ID/notificationChannels/CHANNEL_ID"
+  ]
+}

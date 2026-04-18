@@ -1,0 +1,24 @@
+#!/usr/bin/env sh
+set -eu
+
+MEM_MB="${STUDYNAVI_PREPUSH_NODE_MEM_MB:-4096}"
+MODE="${STUDYNAVI_PREPUSH_MODE:-light}"
+
+if [ -n "${NODE_OPTIONS:-}" ]; then
+  export NODE_OPTIONS="$NODE_OPTIONS --max-old-space-size=$MEM_MB"
+else
+  export NODE_OPTIONS="--max-old-space-size=$MEM_MB"
+fi
+
+echo "[pre-push] Node memory cap: ${MEM_MB}MB"
+
+if [ "$MODE" = "full" ]; then
+  echo "[pre-push] Running full verification gate (verify:smoke)..."
+  npm run verify:smoke
+else
+  echo "[pre-push] Running lightweight local gate (prepush:local)..."
+  npm run prepush:local
+  echo "[pre-push] Heavy build/e2e gates remain CI and promotion blockers."
+fi
+
+echo "[pre-push] Verification passed."

@@ -1,0 +1,91 @@
+# Settings to manage and configure a Firebase App Hosting backend.
+# https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  # Increase this value if you'd like to automatically spin up
+  # more instances in response to increased traffic.
+  maxInstances: 1
+
+# Environment variables and secrets for build/runtime.
+# See: https://firebase.google.com/docs/app-hosting/configure
+env:
+  # Build-time + runtime (NEXT_PUBLIC_* must be present at build time for Next.js)
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: "your-firebase-api-key"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: "your-project-id.firebaseapp.com"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: "your-project-id"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: "your-project-id.firebasestorage.app"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: "38115645963"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: "1:38115645963:web:9880ca18a75e82c60ec50e"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+    value: "G-TQZTP8D1GD"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_FIREBASE_APPCHECK_SITE_KEY
+    value: "6Lcb7awsAAAAAJZel_Kg5lNmwOS6pfoMcIrj0Fi1"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_TURNSTILE_SITE_KEY
+    value: "0x4AAAAAACfbI-fk802oD4Sd"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_STUDYNAVI_STAFF_EMAIL_DOMAIN
+    value: "example.com"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_STUDYNAVI_CLAIMS_CUTOVER_MODE
+    value: "bridge"
+    availability: [BUILD, RUNTIME]
+  - variable: NEXT_PUBLIC_STUDYNAVI_ENABLE_LEGACY_STAFF_COMPAT_BRIDGE
+    value: "false"
+    availability: [BUILD, RUNTIME]
+
+  # Runtime-only server settings
+  - variable: FIREBASE_STORAGE_BUCKET
+    value: "your-project-id.firebasestorage.app"
+    availability: [RUNTIME]
+  - variable: STUDYNAVI_ENABLE_LEGACY_STAFF_COMPAT_BRIDGE
+    value: "false"
+    availability: [RUNTIME]
+  - variable: STUDYNAVI_CLAIMS_CUTOVER_MODE
+    value: "bridge"
+    availability: [RUNTIME]
+  - variable: STUDYNAVI_REQUIRE_STAFF_CLAIM_FOR_CORRECTIONS
+    value: "true"
+    availability: [RUNTIME]
+  - variable: STUDYNAVI_SESSION_TTL_SECONDS
+    value: "43200"
+    availability: [RUNTIME]
+  - variable: STUDYNAVI_SESSION_REQUIRE_TURNSTILE_PROOF
+    value: "true"
+    availability: [RUNTIME]
+  - variable: CSP_ENABLE_STRICT_REPORT_ONLY
+    value: "true"
+    availability: [RUNTIME]
+  - variable: CSP_ENABLE_STRICT_ENFORCE
+    value: "false"
+    availability: [RUNTIME]
+
+  # Runtime-only secrets (stored in App Hosting Secret Manager)
+  - variable: OPENAI_API_KEY
+    secret: OPENAI_API_KEY
+    availability: [RUNTIME]
+  - variable: FIREBASE_SERVICE_ACCOUNT
+    secret: FIREBASE_SERVICE_ACCOUNT
+    availability: [RUNTIME]
+  - variable: BRAVE_SEARCH_API_KEY
+    secret: BRAVE_SEARCH_API_KEY
+    availability: [RUNTIME]
+  - variable: TURNSTILE_SECRET_KEY
+    secret: TURNSTILE_SECRET_KEY
+    availability: [RUNTIME]
+  - variable: STUDYNAVI_SESSION_SECRET
+    secret: STUDYNAVI_SESSION_SECRET
+    availability: [RUNTIME]

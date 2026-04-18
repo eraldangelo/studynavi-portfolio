@@ -1,0 +1,165 @@
+type University = {
+    university: string;
+    location: string[];
+    typicalIntakes: string;
+    category: string;
+    priorityLevel: 'High' | 'Low';
+    website: string;
+    partner?: boolean;
+}
+
+export const universities: University[] = [
+    {
+        university: 'Australian Catholic University (ACU)',
+        location: ['Sydney', 'Melbourne', 'Brisbane', 'Canberra', 'Adelaide', '**Regional VIC**', '• Ballarat'],
+        typicalIntakes: 'Mar, Aug',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.acu.edu.au',
+    },
+    {
+        university: 'Bond University',
+        location: ['Gold Coast'],
+        typicalIntakes: 'Jan, May, Sep',
+        category: 'Universities',
+        priorityLevel: 'Low',
+        website: 'https://bond.edu.au',
+    },
+    {
+        university: 'Charles Darwin University (CDU)',
+        location: ['Darwin', 'Sydney'],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'Low',
+        website: 'https://www.cdu.edu.au',
+    },
+    {
+        university: 'Charles Sturt University (CSU)',
+        location: ["Melbourne", "**Regional NSW**", "• Albury-Wodonga", "• Bathurst", "• Wagga Wagga", "• Port Macquarie", "• Orange", "• Dubbo", "**Regional VIC**", "• Shepparton"],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.charlessturt.edu.au',
+    },
+    {
+        university: 'CQUniversity',
+        location: ['Brisbane', 'Sydney', 'Melbourne', 'Perth', '**Regional QLD**', '• Rockhampton', '• Mackay', '• Townsville', '• Cairns', '• Bundaberg', '• Gladstone'],
+        typicalIntakes: 'Mar, Jul, Nov',
+        category: 'Universities',
+        priorityLevel: 'Low',
+        website: 'https://www.cqu.edu.au',
+    },
+    {
+        university: 'Curtin University',
+        location: ['Perth', '**Regional WA**', '• Kalgoorlie (WA)'],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.curtin.edu.au',
+    },
+    {
+        university: 'Deakin University',
+        location: ['Melbourne', '**Regional VIC**', '• Geelong Waurn Ponds Campus', '• Geelong Waterfront Campus', '• Warrnambool Campus'],
+        typicalIntakes: 'Feb, Jul, Nov',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.deakin.edu.au',
+    },
+    {
+        university: 'Edith Cowan University (ECU)',
+        location: ['Perth', '**Regional WA**', '• South West (Bunbury)'],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.ecu.edu.au',
+    },
+    {
+        university: 'Federation University Australia',
+        location: ['Melbourne', '**Regional VIC**', '• Ballarat', '• Gippsland (Churchill)'],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.federation.edu.au',
+    },
+    {
+        university: 'Flinders University',
+        location: ['Adelaide', '**Regional SA**', '• Riverland', '• Mount Gambier'],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.flinders.edu.au',
+    },
+    {
+        university: 'Griffith University',
+        location: ['Brisbane', 'Gold Coast'],
+        typicalIntakes: 'Feb, Jul, Nov',
+        category: 'Universities',
+        priorityLevel: 'Low',
+        website: 'https://www.griffith.edu.au',
+    },
+    {
+        university: 'James Cook University (JCU)',
+        location: ['**Regional QLD**', '• Townsville', '• Cairns'],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.jcu.edu.au',
+    },
+    {
+        university: 'JCU Brisbane',
+        location: ['Brisbane'],
+        typicalIntakes: 'Mar, Jul, Nov',
+        category: 'Universities',
+        priorityLevel: 'Low',
+        website: 'https://www.jcub.edu.au',
+    },
+    {
+        university: 'La Trobe University',
+        location: [
+            'Melbourne',
+            'Sydney',
+            '**Regional VIC**',
+            '• Bendigo Campus',
+            '• Shepparton Campus',
+            '• Mildura Campus',
+            '**Regional NSW**',
+            '• Albury-Wodonga Campus',
+        ],
+        typicalIntakes: 'Feb, Jul, Nov',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.latrobe.edu.au/',
+    },
+    {
+        university: 'Macquarie University',
+        location: ['Sydney'],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.mq.edu.au',
+    },
+    {
+        university: 'Murdoch University',
+        location: ['Perth'],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.murdoch.edu.au',
+    },
+    {
+        university: 'Queensland University of Technology (QUT)',
+        location: ['Brisbane'],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'Low',
+        website: 'https://www.qut.edu.au',
+    },
+    {
+        university: 'RMIT University',
+        location: ['Melbourne', '**Regional VIC**', '• Point Cook Flight Training', '• Bendigo Flight Training'],
+        typicalIntakes: 'Feb, Jul',
+        category: 'Universities',
+        priorityLevel: 'High',
+        website: 'https://www.rmit.edu.au',
+    }
+];

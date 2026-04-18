@@ -1,0 +1,117 @@
+{
+  "NEW_ZEALAND_RISK_ACKNOWLEDGEMENT": {
+    "id": "NEW_ZEALAND_RISK_ACKNOWLEDGEMENT",
+    "title": "Risk Acknowledgment for New Zealand",
+    "description": [
+      "Please inform the student of the following risks associated with financial sponsorship:",
+      {
+        "list": [
+          "**Sponsor Requirements:** Immigration New Zealand (INZ) strongly prefers sponsors who are close family relatives (parents, siblings).",
+          "**Higher-Risk Sponsors:** If the sponsor is a distant relative, family friend, or non-family member, the visa application carries a **significantly higher risk of refusal**. INZ will heavily scrutinize the sponsor's motives and the genuineness of their support.",
+          "**Required Documents:** The sponsor must provide extensive evidence of their financial capacity and their relationship to the student. This will be detailed in a later step."
+        ]
+      },
+      "Does the student understand and agree to proceed despite these risks?"
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Risk acknowledgment illustration",
+    "primaryButtonText": "Yes, Proceed",
+    "secondaryButtonText": "No, Cancel"
+  },
+  "NEW_ZEALAND_VISA_REQUIREMENT_INFO": {
+    "id": "NEW_ZEALAND_VISA_REQUIREMENT_INFO",
+    "title": "Important Visa Requirement Information",
+    "description": [
+      "Please inform the student that an **official English test (such as IELTS or PTE) is a mandatory requirement** for most New Zealand student visa applications. It is crucial to set the expectation that they will likely need to take one of these tests.",
+      "While some institutions may waive the English test for admission, the **embassy often requires it for the visa itself**. Please advise the student accordingly."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Visa requirement illustration",
+    "primaryButtonText": "Acknowledge"
+  },
+  "NZ_VISA_PAYMENT_INFO": {
+    "id": "NZ_VISA_PAYMENT_INFO",
+    "title": "New Zealand Visa Fee Payment",
+    "description": [
+      "Please set the expectation that the **visa application fee** and any associated VFS Global service fees must be paid at the time of lodging the visa application.",
+      "The **tuition fee**, however, is typically paid only after the visa application has been **'Approved in Principle' (AIP)**. This protects the student's funds, as the bulk of the payment is made only after INZ has indicated they are likely to grant the visa."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Visa payment information",
+    "primaryButtonText": "Acknowledge"
+  },
+  "NZ_PATHWAY_INFO": {
+    "id": "NZ_PATHWAY_INFO",
+    "title": "Pathway Student Visa Information",
+    "description": [
+      "A **Pathway Student Visa** allows the student to undertake up to **three consecutive courses** on a single visa with one or more approved education providers in New Zealand.",
+      "**Benefits:**",
+      {
+        "list": [
+          "**Convenience:** No need to apply for a new visa for each course.",
+          "**Certainty:** Provides a clear, long-term study plan.",
+          "**Work Rights:** Standard student work rights apply throughout the pathway."
+        ]
+      },
+      "Please ensure that the first course in the pathway starts within 3 months of the visa being granted.",
+      "For more information, visit the [official INZ page](https://www.immigration.govt.nz/new-zealand-visas/visas/visa/pathway-student-visa)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Pathway visa information"
+  },
+  "NZ_FEE_PAYING_INFO": {
+    "id": "NZ_FEE_PAYING_INFO",
+    "title": "Fee Paying Student Visa",
+    "description": [
+      "This is the standard visa for international students planning to study full-time in New Zealand for a single course.",
+      "**Key Requirements:**",
+      {
+        "list": [
+          "**Offer of Place:** An acceptance letter from an approved New Zealand education provider.",
+          "**Proof of Funds:** Evidence that the student can cover their tuition fees and living expenses.",
+          "**Health & Character:** Meet standard health and character requirements.",
+          "**Bona Fide:** The student must be a genuine student who intends to leave New Zealand after their studies."
+        ]
+      },
+      "For more details, visit the [official INZ page](https://www.immigration.govt.nz/new-zealand-visas/visas/visa/fee-paying-student-visa)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Fee paying visa information",
+    "primaryButtonText": "Acknowledge"
+  },
+  "NZ_LOWER_QUALIFICATION_RISK": {
+    "id": "NZ_LOWER_QUALIFICATION_RISK",
+    "title": "Warning: Qualification Downgrade Risk",
+    "description": [
+      "Choosing a lower-level course (e.g., a Level 5 Diploma) after completing a higher qualification (like a Bachelor's Degree) can be a **major red flag** for Immigration New Zealand.",
+      "**Why it's a risk:** The visa officer may question if the student is a 'Bona Fide' (genuine) student and might suspect their primary motivation is to work, not study.",
+      "**To proceed, the student must have a very strong and logical reason** for this 'downgrade,' which must be explained clearly in their Statement of Purpose. For example, are they making a career change that requires this specific foundational course?",
+      "Does the student understand this risk and wish to continue?"
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Qualification downgrade warning",
+    "primaryButtonText": "Yes, Proceed",
+    "secondaryButtonText": "Cancel"
+  },
+  "NZ_POST_STUDY_WORK_VISA": {
+    "id": "NZ_POST_STUDY_WORK_VISA",
+    "title": "Post-Study Work Visa Information",
+    "description": [
+      "The Post-Study Work Visa allows students who have completed an acceptable New Zealand qualification to work for any employer in New Zealand.",
+      "**Visa Length:**",
+      "The length of the visa is **equal to the duration of the student's study** in New Zealand, up to a maximum of **3 years**.",
+      "**Key Eligibility:**",
+      {
+        "list": [
+          "The student must have completed a New Zealand qualification at **Level 7 or above** (e.g., Bachelor's Degree, Graduate Diploma, Master Degree, PhD).",
+          "For non-degree Level 7 qualifications, the course must be on the **Green List**.",
+          "The student must apply within **3 months** of their student visa expiring."
+        ]
+      },
+      "For full eligibility details, please visit the [official INZ website](https://www.immigration.govt.nz/new-zealand-visas/visas/visa/post-study-work-visa)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Post-study work visa info",
+    "hideDefaultCloseButton": true
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "CANADA_SPOUSE_OWP_INFO": {
+    "id": "CANADA_SPOUSE_OWP_INFO",
+    "title": "Spouse Open Work Permit Eligibility",
+    "description": [
+      "Under the new rules implemented in January 2025, a student's spouse or common-law partner is only eligible for an Open Work Permit if the student is enrolled in one of the following programs:",
+      {
+        "list": [
+          "**Masterâ€™s or Doctoral Programs:** The program must be at least 16 months in duration. (Short Master's programs under 16 months no longer qualify the spouse for a work permit).",
+          "**Professional Degree Programs:** Spouses of students in specific professional bachelorâ€™s programs are still eligible."
+        ]
+      },
+      "These typically include:",
+      {
+        "list": [
+          "Medicine (MD)",
+          "Law (LLB, JD, BCL)",
+          "Pharmacy (PharmD, BSc)",
+          "Veterinary Medicine (DVM)",
+          "Dentistry (DDS, DMD)",
+          "Optometry (OD)",
+          "Nursing (BScN - in some specific provincial frameworks)"
+        ]
+      },
+      "**Important:** If the student is studying a standard Undergraduate Bachelorâ€™s degree (not in the professional list above) or a College Diploma, their spouse is **not eligible for an Open Work Permit**. They can still apply for a Visitor Visa, but they will not be allowed to work."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Spouse with Open Work Permit",
+    "hideDefaultCloseButton": true
+  },
+  "CANADA_CHILDREN_DEPENDENT_INFO": {
+    "id": "CANADA_CHILDREN_DEPENDENT_INFO",
+    "title": "Bringing Dependent Children to Canada",
+    "description": [
+      "Filipino students can still bring their dependent children regardless of the program level (Diploma, Degree, or Master's).",
+      {
+        "list": [
+          "**Minor Children (under 18/19):** They can accompany the student and are generally eligible to study at a Canadian primary or secondary school without needing their own separate Study Permit (though having one is often recommended for smoother processing).",
+          "**Dependent Children (under 22):** Must be unmarried and financially dependent on the parents."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Children dependents",
+    "hideDefaultCloseButton": true
+  },
+  "CANADA_ACADEMIC_REGRESSION_WARNING": {
+    "id": "CANADA_ACADEMIC_REGRESSION_WARNING",
+    "title": "Visa Strategy: [highestEducation] Holders (Canada)",
+    "description": [
+      "If a student already holds a [highestEducation] from the Philippines and is applying for a [programCategory] in Canada, it is a major red flag for **\"Academic Regression.\"**",
+      "**How to Overcome the Red Flag**",
+      "Unlike Australia, which strictly requires academic \"upgrading,\" Canada is more flexible if the student can show **Career Logic**.",
+      {
+        "list": [
+          "**Avoid General Programs:** Do not apply for a \"General Business Diploma\" if the student already has a Business degree. This is a 100% \"Purpose of Visit\" refusal.",
+          "**Focus on Specialization:** The course must be a Post-Graduate (PG) Diploma or a highly specialized Certificate (e.g., BS Nursing graduate taking a PG Diploma in Gerontology).",
+          "**Logical Progression:** The SOP must explain that the student isn't \"re-studying\" but is \"specializing\" to gain specific skills or Canadian work experience (Co-op) that will increase their salary back in the Philippines."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Academic Regression Warning",
+    "primaryButtonText": "Acknowledge"
+  },
+  "CANADA_BACHELOR_TO_BACHELOR_WARNING": {
+    "id": "CANADA_BACHELOR_TO_BACHELOR_WARNING",
+    "title": "Visa Strategy: Second Bachelorâ€™s Degree (Canada)",
+    "description": [
+      "While a second degree is legally allowed, the Visa Officer will question why the student isn't moving up to a Master's or a Post-Graduate (PG) program.",
+      "**How to Handle the \"Horizontal Movement\" Red Flag**",
+      "To get an approval, the student must prove that the second degree provides a completely different skill set or is a mandatory requirement for their career goal.",
+      {
+        "list": [
+          "**The \"Field Switcher\" Logic:** If a student has a Bachelor of Arts but now wants a Bachelor of Computer Science, this is acceptable. It shows a clear career pivot that requires a full foundation.",
+          "**The \"Professional Licensing\" Logic:** Some professions in Canada (like Engineering or Nursing) may require a Canadian degree for licensing. If the student can prove their Philippine degree isn't recognized for the specific job they want, the second degree is justified.",
+          "**Avoid \"Same Field\" Degrees:** If they have a BS in Business from the Philippines and apply for a Bachelor of Commerce in Canada, it will likely be refused for \"Lack of Academic Progression.\""
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Second Bachelor's Degree Warning",
+    "primaryButtonText": "Acknowledge"
+  },
+  "CANADA_PGWP_DIPLOMA_INFO": {
+    "id": "CANADA_PGWP_DIPLOMA_INFO",
+    "title": "Canada: Post-Graduation Work Permit (PGWP)",
+    "description": [
+      "The [PGWP](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html) allows students to stay and work in Canada after graduation. For applications submitted on or after November 1, 2024, new eligibility 'filters' apply to all non-degree programs.",
+      "**1. The 'Field of Study' Filter (The Big Change)**",
+      "If the student is attending a College or a Non-University DLI for a Diploma, Certificate, Graduate Certificate, or Graduate Diploma, they are only eligible for a PGWP if their program falls under one of the 5 Priority Sectors:",
+      {
+        "list": [
+          "Healthcare",
+          "STEM (Science, Technology, Engineering, Math)",
+          "Skilled Trades (Construction, Plumbing, etc.)",
+          "Transport",
+          "Agriculture & Agri-food"
+        ]
+      },
+      "**2. Mandatory Language Requirement**",
+      "Every student applying for a PGWP in 2025 must provide a valid English test score (IELTS General, PTE Core, or CELPIP).",
+      {
+        "list": [
+          "**University (Graduate Diploma/Cert):** Minimum CLB 7 (IELTS 6.0 in all bands).",
+          "**College (Diploma/Cert):** Minimum CLB 5 (IELTS 5.0 equivalent)."
+        ]
+      },
+      "**3. PGWP Duration (How long can they stay?)**",
+      {
+        "list": [
+          "**Diplomas/Certificates (2+ years):** 3-year PGWP (provided the field is eligible).",
+          "**Diplomas/Certificates (8 months â€“ 2 years):** Matches the length of the study program (e.g., a 1-year program gets a 1-year PGWP)."
+        ]
+      },
+      "**The \"CIP Code\" Check**",
+      "Before a student pays their tuition to a DLI, you must check the programâ€™s CIP Code (Classification of Instructional Programs) on the [Official IRCC Eligibility List](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility/field-of-study/currently-eligible.html). If the code is not on the list, they will not be able to work in Canada after they graduate.",
+      "**Consultant Tip:** Always double-check the school's specific program website to confirm if the CIP code is eligible before lodging."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "PGWP Information",
+    "hideDefaultCloseButton": true
+  },
+  "CANADA_PGWP_DEGREE_INFO": {
+    "id": "CANADA_PGWP_DEGREE_INFO",
+    "title": "Canada: Post-Graduation Work Permit (PGWP)",
+    "description": [
+      "The [PGWP](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html) allows students to stay and work in Canada after graduation.",
+      "**1. The \"Field of Study\" Exemption (The Major Advantage)**",
+      "As of March 2025, students graduating with a [programCategory] (from either a University or a College) are exempt from field-of-study restrictions.",
+      {
+        "list": [
+          "**The Rule:** You can study any subject (e.g., Business, Arts, Music, Psychology) and still be eligible for a PGWP.",
+          "**Note:** This exemption applies as long as the degree is recognized by the province and the institution is PGWP-eligible."
+        ]
+      },
+      "**2. Mandatory Language Requirement**",
+      "Every student applying for a PGWP in 2025 must provide a valid English test score (IELTS General, PTE Core, or CELPIP).",
+      {
+        "list": [
+          "**Degree Graduates:** Minimum CLB 7 (IELTS General 6.0 in all bands).",
+          "**Important:** This is a higher requirement than for diploma graduates. Even if you were not required to take a test for your visa, you will need this score to get your work permit."
+        ]
+      },
+      "**3. PGWP Duration (How long can they stay?)**",
+      "[BACHELOR_PGWP_DURATION]",
+      "[PROFESSIONAL_PGWP_DURATION]",
+      "**The \"Degree Status\" Check**",
+      "Before a student pays their tuition, confirm that the program is officially classified as a Degree. In Canada, some colleges offer \"Degrees\" that are academically equivalent to University degrees. These are highly recommended because they bypass the strict 2025 CIP Code filters.",
+      "**Consultant Tip:** Because Bachelorâ€™s degrees are exempt from field-of-study restrictions, they are currently the lowest-risk option for students who want to study \"non-priority\" subjects like Business or Liberal Arts while still securing their future work rights in Canada."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "PGWP Information for Degree Programs",
+    "hideDefaultCloseButton": true
+  },
+  "CANADA_PGWP_MASTERS_PHD_INFO": {
+    "id": "CANADA_PGWP_MASTERS_PHD_INFO",
+    "title": "Canada: PGWP for Masters & PhD Graduates",
+    "description": [
+      "Graduates of Master and Doctorate programs keep the most generous PGWP pathway in 2025. Use this modal to set the right expectations before the student pays their tuition deposit.",
+      "**Why this pathway is safer:**",
+      {
+        "list": [
+          "**No Field Restrictions:** Masterâ€™s and PhD degrees are automatically exempt from the PGWP priority field list, so the student can study any specialization and still qualify.",
+          "**Immigration Points:** A Canadian graduate degree provides the highest education score inside Express Entry and most Provincial Nominee Programs.",
+          "**Spouse Advantage:** These programs are among the few categories that still allow the partner to apply for an open work permit in 2025."
+        ]
+      },
+      "**What the student must prepare:**",
+      {
+        "list": [
+          "**Language Test:** A CLB 7 (IELTS General 6.0 in all bands) is mandatory when they later apply for the PGWP or PR, even if the school waived the test for admission.",
+          "**Financial Readiness:** Tuition deposits are typically higher for graduate programs and must be paid before the school issues a Provincial Attestation Letter (PAL)."
+        ]
+      },
+      "**PGWP Duration**",
+      "[MASTERS_PGWP_DURATION]",
+      "[PHD_PGWP_DURATION]",
+      "[SPOUSAL_OPEN_WORK_PERMIT_INFO]",
+      "Encourage the student to finalize their Statement of Purpose now while motivation is high. A well-written LOE that highlights career value and family ties will be reused for the visa, PGWP, and future PR steps."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Masters and PhD PGWP information",
+    "hideDefaultCloseButton": true
+  },
+  "CANADA_PGWP_MASTERS_INFO": {
+    "id": "CANADA_PGWP_MASTERS_INFO",
+    "title": "Canada: Post-Graduation Work Permit (PGWP)",
+    "description": [
+      "The [PGWP](https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/about.html) allows students to stay and work in Canada after graduation. In 2025, [program category] graduates enjoy the most flexible rules and significant competitive advantages.",
+      "**1. The \"Field of Study\" Exemption**",
+      "Graduates of [program category] programs (from both Universities and select Colleges) are completely exempt from field-of-study restrictions.",
+      {
+        "list": [
+          "**The Rule:** You can study any subject (MBA, Fine Arts, Philosophy, etc.) and you will still be eligible for a PGWP.",
+          "**Note:** Unlike diplomas, you do not need to check for a specific priority CIP code to qualify for the work permit."
+        ]
+      },
+      "**2. Mandatory Language Requirement**",
+      "Every student applying for a PGWP in 2025 must provide a valid English test score (IELTS General, PTE Core, or CELPIP).",
+      {
+        "list": [
+          "**Requirement:** Minimum CLB 7 (IELTS General 6.0 in all bands).",
+          "**Validity:** Your test results must be less than 2 years old at the time of your PGWP application."
+        ]
+      },
+      "**3. PGWP Duration (The 3-Year Guarantee)**",
+      "As of 2024/2025, Masterâ€™s degrees have a unique duration advantage:",
+      "[MASTERS_PGWP_DURATION]",
+      "[PHD_PGWP_DURATION]",
+      "[SPOUSAL_OPEN_WORK_PERMIT_INFO]",
+      "Before a student chooses a 2-year Diploma, remind them that a 1-year Master's is now a better investment. It bypasses the \"Priority Field\" check, guarantees a 3-year work permit, and provides a much higher \"score\" for future Permanent Residency (PR) applications.",
+      "**Consultant Tip:** In 2025, a Master degree is the safest way to ensure a studentâ€™s spouse can work in Canada. Always check the program length on the schoolâ€™s website; if the Master's is only 12 months, the spouse may not be eligible for a work permit under the new 16-month rule."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Canada PGWP Masters Info",
+    "hideDefaultCloseButton": true
+  }
+}

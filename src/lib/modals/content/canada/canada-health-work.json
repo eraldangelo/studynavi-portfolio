@@ -1,0 +1,164 @@
+{
+  "CANADA_MEDICAL_EXAM_INFO": {
+    "id": "CANADA_MEDICAL_EXAM_INFO",
+    "title": "Canada Visa: Medical Examination (Philippines)",
+    "description": [
+      "Required for all Filipino students to meet the Canadian health requirement for stays longer than 6 months.",
+      "**The \"Upfront Medical\" Option**",
+      "For faster processing in the Philippines, it is highly recommended to complete an Upfront Medical Exam before lodging the visa application.",
+      "**How it works:** You do not need an IME number from the embassy. Simply inform the clinic you are doing an \"Upfront Medical.\"",
+      "**The Outcome:** The clinic will provide you with an Information Printout Sheet (or an eMedical sheet). You must upload this document when you lodge your visa application via the IRCC portal.",
+      "[red blinking warning icon] **Critical Requirement:** The information on your medical record (Name, Passport Number, Birthdate) must be 100% identical to your passport and visa application. Any mismatch will prevent the IRCC system from \"linking\" your results to your visa file, leading to significant delays or refusal for \"incomplete\" requirements.",
+      "**Authorized Panel Clinics**",
+      "In the Philippines, only IRCC-authorized Panel Physicians can perform this exam. Regular hospital check-ups are not accepted.",
+      "**Manila**",
+      {
+        "list": [
+          "[St. Lukeâ€™s Medical Center Extension Clinic (SLEC) â€“ Ermita, Manila](https://slec.ph/registration/other/)",
+          "[St. Lukeâ€™s Medical Center (SLEC) â€“ Bonifacio Global City (BGC), Taguig](https://slec.ph/registration/other/)",
+          "[IOM Manila Health Centre â€“ Makati City](https://philippines.iom.int/manila-health-centre)"
+        ]
+      },
+      "**Baguio**",
+      {
+        "list": [
+          "[Nationwide Health Systems (NHS) â€“ Baguio City](https://nhsgroup.ph/baguio.html)"
+        ]
+      },
+      "**Cebu**",
+      {
+        "list": [
+          "[Nationwide Health Systems (NHS) â€“ Cebu City (Available via specific partner clinics)](https://nhsgroup.ph/cebu.html)"
+        ]
+      },
+      "**Davao**",
+      {
+        "list": [
+          "[Nationwide Health Systems (NHS) â€“ Davao City (Available via specific partner clinics)](https://nhsgroup.ph/davao.html)"
+        ]
+      },
+      "**What to bring?**",
+      {
+        "list": [
+          "**Valid Original Passport:** A photocopy is not enough. The clinic needs to verify your identity.",
+          "**Upfront Medical Details:** State your visa category (Student) so they perform the correct tests.",
+          "**Prescription Glasses/Contacts:** If you wear them, bring them for the vision test.",
+          "**Medical Records:** If you have a history of TB, major surgery, or chronic conditions (like heart or kidney issues), bring official medical certificates and previous X-rays (if available).",
+          "**COVID-19 Vaccination Record:** (Optional but recommended) Bring your VaxCertPH or International Vaccine Certificate (Yellow Card)."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Canada Medical Exam Info",
+    "hideDefaultCloseButton": true
+  },
+  "CANADA_INSURANCE_INFO": {
+    "id": "CANADA_INSURANCE_INFO",
+    "title": "Insurance Information",
+    "description": [
+      "Health insurance in Canada works very differently from Australia's OSHC (Overseas Student Health Cover). While Australia has a single, national system (OSHC) that you must pay for upfront before your visa is even granted, Canadaâ€™s system is decentralized and varies by province.",
+      "Here is the breakdown comparing the two:",
+      {
+        "table": {
+          "headers": [
+            "Feature",
+            "Australia (OSHC)",
+            "Canada (Provincial/DLI)"
+          ],
+          "rows": [
+            [
+              "National System?",
+              "Yes, one standard rule for everyone.",
+              "No, depends on your province (BC, ON, AB, etc.)."
+            ],
+            [
+              "When to pay?",
+              "Upfront for the entire visa duration.",
+              "Usually semester-by-semester or yearly."
+            ],
+            [
+              "Is it in tuition?",
+              "Often separate; you choose a provider.",
+              "Often included in your school fees/tuition bill."
+            ],
+            [
+              "Visa Requirement",
+              "Must show proof before visa approval.",
+              "Not usually required for the visa application itself."
+            ]
+          ]
+        }
+      },
+      "<h4 class='font-bold text-base mt-4 text-[#004097]'>How it Works in Canada (By Province)</h4>",
+      "In Canada, whether you are covered by the \"Free\" government plan or a \"Private\" plan depends on where you study:",
+      "**1. Provinces with Private Plans (e.g., Ontario)**",
+      {
+        "list": [
+          "If you study in Ontario (Humber, Seneca, University of Toronto, etc.), you are not eligible for the public provincial health card (OHIP).",
+          "**The System:** The school automatically enrolls you in a mandatory private group plan like UHIP or guard.me.",
+          "**Payment:** The cost (approx. $700 â€“ $1,000 CAD/year) is usually added to your Tuition Invoice.",
+          "You don't need to do anything; it's managed by the school."
+        ]
+      },
+      "**2. Provinces with Public Plans (e.g., BC, Alberta, Saskatchewan)**",
+      {
+        "list": [
+          "In these provinces, international students can join the same government health plan as Canadians.",
+          "**The System:** You apply for a Provincial Health Card (like the BC MSP) after you arrive.",
+          "**Waiting Period:** There is often a 3-month waiting period before coverage begins.",
+          "**The Gap:** Schools in these provinces will charge you a small fee for \"Gap Insurance\" (like iMED in BC) to cover your first 90 days.",
+          "**Cost:** Some are free, but BC charges $75/month for international students."
+        ]
+      },
+      "<h4 class='font-bold text-base mt-4 text-[#004097]'>Crucial Tips for Filipino Students</h4>",
+      {
+        "list": [
+          "**Check your LOA/Invoice:** Most DLIs (Designated Learning Institutions) include \"Health Insurance\" as a line item in your fees. If you see it there, you are covered.",
+          "**The \"Flight Gap\":** Most Canadian school insurance starts on the first day of the month classes begin (e.g., September 1st). If a student flies to Canada on August 15th, they are uninsured for those 2 weeks.",
+          "**Private Travel Insurance:** It is highly recommended that students buy a short-term Travel Insurance policy from the Philippines (e.g., BPI MS, Blue Cross) to cover them from their departure date until their school insurance kicks in."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Canada Insurance Information",
+    "primaryButtonText": "Acknowledge"
+  },
+  "CANADA_WORK_RIGHTS_INFO": {
+    "id": "CANADA_WORK_RIGHTS_INFO",
+    "title": "Canada Student Work Rights",
+    "description": [
+      "International students in Canada can work to help support themselves, but they must adhere to strict hourly limits to maintain their visa status.",
+      "**1. Off-Campus Work (The 24-Hour Rule)**",
+      "As of November 8, 2024, the weekly limit for off-campus work during academic sessions has officially increased.",
+      {
+        "list": [
+          "**During Term Time:** Students can work up to 24 hours per week off-campus.",
+          "**Wait for School to Start:** A student cannot begin working until their study program has officially started."
+        ]
+      },
+      "**2. On-Campus Work (Unlimited)**",
+      "If a student finds a job physically located on their school's campus (e.g., bookstore, cafeteria, or research assistant), the rules are different.",
+      {
+        "list": [
+          "**Hours:** There is no legal limit on the number of hours a student can work on-campus.",
+          "**Combination:** A student can work unlimited hours on-campus AND up to 24 hours off-campus simultaneously, though this is academically discouraged."
+        ]
+      },
+      "**3. Scheduled Breaks (Full-Time Work)**",
+      "During official school holidays, students are permitted to work \"unlimited\" hours (typically 40+ hours per week).",
+      {
+        "list": [
+          "**What counts as a break?** Summer break, winter holidays, and spring/reading weeks.",
+          "**The \"Bookend\" Rule:** To work full-time during a break, the student must have been a full-time student before the break and be enrolled full-time for the term after the break.",
+          "**Duration Limit:** Students can only work unlimited hours for a maximum of 180 days per calendar year."
+        ]
+      },
+      "**The \"Final Semester\" Exception**",
+      "If a student only needs a part-time course load to finish their program in their final semester, they can still work the 24 hours per week off-campus, provided they were full-time in all previous semesters.",
+      "[red blinking warning icon] **Critical Warning:** Working even one hour over the 24-hour limit during term time is a serious violation. In 2025, IRCC has increased enforcement, and violations can lead to deportation or PGWP refusal because the student failed to comply with their study permit conditions."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Work rights information",
+    "hideDefaultCloseButton": true
+  }
+}

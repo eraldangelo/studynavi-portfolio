@@ -1,0 +1,134 @@
+{
+  "AUSTRALIA_RESEARCH_TOPIC": {
+    "id": "AUSTRALIA_RESEARCH_TOPIC",
+    "title": "How to Find a Research Topic",
+    "description": [
+      "Finding the right research topic is a crucial step that demonstrates the student's seriousness and fit for a postgraduate research program.",
+      "**Where to Look:**",
+      {
+        "list": [
+          "**University Websites:** Check the \"Research\" or \"Graduate Studies\" sections of the target university. They often list current projects, research strengths, and potential topics.",
+          "**Faculty Profiles:** Review the profiles of professors in the department of interest. Their recent publications and listed research interests are excellent sources of ideas.",
+          "**Academic Journals:** Read recent articles in top journals in the student's field to understand current trends and identify gaps in the research that they could explore.",
+          "**Conferences:** Look at the proceedings from recent academic conferences to see what topics are being actively discussed."
+        ]
+      },
+      "**What Makes a Good Topic?**",
+      {
+        "list": [
+          "**Specific & Focused:** Avoid topics that are too broad. A good topic is narrow enough to be covered thoroughly within the timeframe of the degree.",
+          "**Original:** It should aim to contribute something new to the field, even if it's a small or incremental addition.",
+          "**Feasible:** Ensure the student has access to the necessary resources (like data, equipment, or archives) to complete the research.",
+          "**Aligned:** The topic should align with the expertise of at least one potential supervisor at the university."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Look for research topic"
+  },
+  "AUSTRALIA_FIND_SUPERVISOR": {
+    "id": "AUSTRALIA_FIND_SUPERVISOR",
+    "title": "How to Find and Contact a Supervisor",
+    "description": [
+      "Securing a supervisor is the most critical step for admission into a research program. This person will guide the thesis and advocate for the application.",
+      "**Where to Look:**",
+      {
+        "list": [
+          "**University Department Website:** Look for a \"Faculty\" or \"Our People\" section. Filter by research area to find professors who match the student's interests.",
+          "**Read Their Work:** Once potential supervisors are identified, read some of their recent publications to understand their work deeply. This is crucial for personalizing the email."
+        ]
+      },
+      "**How to Make Contact (The First Email):**",
+      "The email must be professional, respectful, and demonstrate that the student has done their homework.",
+      {
+        "list": [
+          "**Personalized Subject Line:** e.g., \"Inquiry Regarding PhD Supervision in [Their Specific Research Area]\"",
+          "**Formal Salutation:** \"Dear Professor [Last Name],\"",
+          "**The Opening:** State clearly that the student is seeking a supervisor for a Master by Research or PhD. Mention a specific paper or project of theirs that was found interesting and explain *why* it connects to the student's own research idea.",
+          "**Briefly Introduce The Project:** In one or two paragraphs, summarize the proposed research topic and its main question.",
+          "**Attach Key Documents:** Always attach the student's academic **CV** and a short (1-2 page) **Research Proposal**.",
+          "**The \"Ask\":** End by politely asking if they would be open to discussing the possibility of supervision."
+        ]
+      },
+      "**What to Avoid:**",
+      {
+        "list": [
+          "**Generic, mass emails:** These are ignored. Personalization is key.",
+          "**Asking them to give a topic:** The student is expected to have their own well-thought-out idea."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Find a supervisor"
+  },
+  "NOMINATE_AGENCY_INFO": {
+    "id": "NOMINATE_AGENCY_INFO",
+    "title": "Next Step: Nominate the Agency as the Representative",
+    "description": [
+      "Once the student receives an **Offer Letter** from the university, they need to nominate the agency as their representative. This is a crucial step that allows us to formally take over and manage the application.",
+      "**Commission and Fees for Research Students**",
+      {
+        "list": [
+          "The assigned consultant will first contact the university representative to confirm if a commission is available for Master by Research or PhD students.",
+          "**If a commission is available:** The student will not need to pay any additional fees.",
+          "**If no commission is available:** A **Service Assistance Fee of PHP 30,000** will be required. This fee covers comprehensive support for the rest of the application journey."
+        ]
+      },
+      "**What Happens After Nomination and Payment (if applicable)?**",
+      "Once the agency has been nominated and the assistance fee settled (if required), we will:",
+      {
+        "list": [
+          "Take over all communication with the university.",
+          "Help gather and submit any outstanding documents required to meet the conditions of the offer.",
+          "Guide the student through every step of the visa application process until a decision is made."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Nominate agency representative"
+  },
+  "AUSTRALIA_REACH_OUT_UNIVERSITY": {
+    "id": "AUSTRALIA_REACH_OUT_UNIVERSITY",
+    "title": "How to Prepare an \"Expression of Interest\"",
+    "description": [
+      "Before a formal application, most universities require an \"Expression of Interest\" (EOI) email to the relevant department or a potential supervisor. This is the chance to make a strong first impression.",
+      "**What to Prepare Before Emailing:**",
+      {
+        "list": [
+          "**Academic CV:** An updated CV that highlights academic achievements, any research experience (including the thesis), publications, and relevant work history.",
+          "**Draft Research Proposal:** A short (1-2 page) document outlining the proposed area of research. It should include a working title, a brief introduction, the main research questions, and a list of key references. It doesnâ€™t have to be perfect, but it must be well-thought-out.",
+          "**Academic Transcripts:** Have official transcripts ready to attach."
+        ]
+      },
+      "**The Goal of the First Email**",
+      "The goal is to show that the student is a serious, capable candidate who has a clear research direction and has done their homework on the university and its faculty. A well-prepared EOI is the key to getting a positive response."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Reach out to university"
+  },
+  "AUSTRALIA_RESEARCH_SCHOOL_APPLICATION_INFO": {
+    "id": "AUSTRALIA_RESEARCH_SCHOOL_APPLICATION_INFO",
+    "title": "The School Application Process (Research)",
+    "description": [
+      "For a Master by Research or PhD, the student applies **directly to the university**, not through an agent portal.",
+      "**Student's Responsibility:**",
+      "The student is responsible for preparing and submitting their own application directly on the university's admissions website.",
+      "**Key Documents for Direct Submission:**",
+      {
+        "list": [
+          "**Completed Application Form:** Filled out on the university's online portal.",
+          "**Passport:** A clear, colored copy.",
+          "**Academic Transcripts & Diplomas.**",
+          "**Updated Academic CV.**",
+          "**Research Proposal:** A detailed document outlining the proposed research.",
+          "**Supervisor's Details:** Include the name and contact information of the supervisor who has agreed to oversee the research."
+        ]
+      },
+      "**After Receiving an Offer Letter:**",
+      "Once the student receives an Offer Letter from the university, they must then **nominate the agency as their representative**. This allows the agency to take over and assist with the remaining steps, such as tuition fee payment and visa lodgement."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "School application information for research students",
+    "hideDefaultCloseButton": true
+  }
+}

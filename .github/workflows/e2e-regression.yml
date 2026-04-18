@@ -1,0 +1,46 @@
+name: E2E Regression
+
+on:
+  schedule:
+    - cron: '30 3 * * *'
+  push:
+    tags:
+      - 'release-*'
+  workflow_dispatch:
+
+jobs:
+  e2e-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: read
+    concurrency:
+      group: e2e-regression-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+
+      - name: Use Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Run E2E regression suite
+        run: npm run test:e2e:regression
+
+      - name: Upload Playwright artifacts
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: playwright-artifacts-regression
+          path: |
+            test-results/**
+            playwright-report/**
+          if-no-files-found: ignore

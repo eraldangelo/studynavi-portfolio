@@ -1,0 +1,129 @@
+﻿name: Firebase App Hosting Rollout
+
+on:
+  push:
+    branches: [ main ]
+    tags:
+      - 'release-*'
+  workflow_dispatch:
+    inputs:
+      deploy_confirmation:
+        description: "Type DEPLOY_STUDIO_PROD to allow manual rollout"
+        required: true
+        default: ""
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    permissions:
+      contents: read
+    concurrency:
+      group: app-hosting-rollout-verify-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+
+      - name: Use Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Setup Java
+        uses: actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run verify gate
+        run: npm run verify
+
+      - name: Run semantic rules gate
+        run: npm run test:rules
+
+      - name: Run Pathfinder contract gate
+        run: npm run test:contract:pathfinder
+
+      - name: Run drift check advisory
+        env:
+          GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT || secrets.FIREBASE_PROJECT || 'your-firebase-project-id' }}
+        run: npm run ops:check:drift
+
+      - name: Upload ts-prune report
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ts-prune-report-rollout
+          path: reports/ts-prune-report.txt
+          if-no-files-found: ignore
+
+  rollout:
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    environment:
+      name: production
+      url: https://your-app.example.com/
+    if: >
+      (github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/release-')))
+      || (github.event_name == 'workflow_dispatch' && github.event.inputs.deploy_confirmation == 'DEPLOY_STUDIO_PROD')
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+
+      - name: Use Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Validate manual deploy confirmation
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          if [ "${{ github.event.inputs.deploy_confirmation }}" != "DEPLOY_STUDIO_PROD" ]; then
+            echo "Manual deploy confirmation mismatch."
+            exit 1
+          fi
+
+      - name: Trigger Firebase App Hosting rollout
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_PROJECT: ${{ secrets.FIREBASE_PROJECT || 'your-firebase-project-id' }}
+          FIREBASE_APP_HOSTING_BACKEND: ${{ secrets.FIREBASE_APP_HOSTING_BACKEND || 'studio' }}
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          BACKEND="${FIREBASE_APP_HOSTING_BACKEND:-studio}"
+          AUTH_ARGS=()
+
+          if [ -n "$FIREBASE_TOKEN" ]; then
+            echo "Using FIREBASE_TOKEN for rollout auth."
+            AUTH_ARGS=(--token "$FIREBASE_TOKEN")
+          elif [ -n "$FIREBASE_SERVICE_ACCOUNT_JSON" ]; then
+            echo "Using FIREBASE_SERVICE_ACCOUNT_JSON for rollout auth."
+            SA_PATH="$RUNNER_TEMP/firebase-service-account.json"
+            printf '%s' "$FIREBASE_SERVICE_ACCOUNT_JSON" > "$SA_PATH"
+            export GOOGLE_APPLICATION_CREDENTIALS="$SA_PATH"
+          else
+            if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ]; then
+              echo "Missing rollout auth. Set FIREBASE_TOKEN or FIREBASE_SERVICE_ACCOUNT_JSON."
+              exit 1
+            fi
+
+            echo "::warning::Missing rollout auth secret (FIREBASE_TOKEN or FIREBASE_SERVICE_ACCOUNT_JSON)."
+            echo "::warning::Skipping explicit apphosting:rollouts:create for this push."
+            echo "::warning::If auto-rollout is disabled, configure one of those secrets."
+            exit 0
+          fi
+
+          npx firebase-tools@15.5.1 apphosting:rollouts:create "$BACKEND" \
+            -b main \
+            -f \
+            --project "$FIREBASE_PROJECT" \
+            "${AUTH_ARGS[@]}" \
+            --non-interactive
+

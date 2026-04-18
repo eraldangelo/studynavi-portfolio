@@ -1,0 +1,88 @@
+{
+  "COURSE_MERIT_HS_OLD": {
+    "id": "COURSE_MERIT_HS_OLD",
+    "title": "Heads Up: Justifying the Course Choice is Key",
+    "description": [
+      "This is one of the most critical parts of the visa application. The visa officer needs to see a **logical connection** between the student's past experience and their chosen course in Australia.",
+      "**Why it Matters:** If the new course seems random or unrelated to their current job, it raises a major **red flag**. The officer might suspect the student is not a 'Genuine Student' and is only using the visa to work, leading to a refusal.",
+      "**Consultant's Role:** Please have a serious discussion with the student. If the course is not a clear career upgrade or a logical next step, the consultant must help them build a strong, believable story in their Statement of Purpose that explains **why this specific course is essential for their future career goals**."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Course selection info",
+    "hideDefaultCloseButton": true
+  },
+  "SAT_ACT_PATHWAY": {
+    "id": "SAT_ACT_PATHWAY",
+    "title": "Pathway Options for Entry Requirements",
+    "description": [
+      "Please inform the student that if they do not meet the school's entry requirements, there are several possible options:",
+      {
+        "list": [
+          "**Foundation Studies:** A one-year program that prepares students for a bachelor's degree.",
+          "**Vocational Pathway:** Students can study a vocational course related to their target bachelor's degree and then package it with a university program. Many universities have affiliated colleges that offer these pathways."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Pathway options info",
+    "hideDefaultCloseButton": true
+  },
+  "TESDA_VOCATIONAL_EQUIVALENT": {
+    "id": "TESDA_VOCATIONAL_EQUIVALENT",
+    "title": "Heads Up: Justifying an Equivalent VET Course",
+    "description": [
+      "When a student with a TESDA certificate chooses an equivalent vocational (VET) course in Australia, it can be a **major red flag** for a visa officer.",
+      "**Why it Matters:** The officer's primary question will be: *'If the student already has this qualification from the Philippines, why do they need to study the exact same thing in Australia?'*. If the answer is not convincing, they may conclude the student's primary motivation is work, not study, and refuse the visa on 'Genuine Student' grounds.",
+      "**Consultant's Role:** The consultant must guide the student to articulate a **powerful reason** for this choice. The new course must offer a **clear and significant skill upgrade** that is not available back home. For example, does the Australian course offer specializations, advanced equipment, or a direct pathway to a specific, higher-level job? This must be the focus of their Statement of Purpose."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Warning illustration",
+    "hideDefaultCloseButton": true
+  },
+  "QUALIFICATION_DOWNGRADE": {
+    "id": "QUALIFICATION_DOWNGRADE",
+    "title": "Warning: Downgrading Qualification",
+    "description": [
+      "Choosing a [program category] course after completing a [highest education attainment] is considered a qualification downgrade. This can raise concerns for visa case officers, who may question if the student is a **\"Genuine Student\"**.",
+      "Please advise the student that to mitigate this risk, the chosen vocational program must clearly offer a **significant skill upgrade** or be part of a **logical career change** that they can strongly justify."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Warning illustration",
+    "hideDefaultCloseButton": true
+  },
+  "ASSOCIATE_BACHELOR_UPGRADE": {
+    "id": "ASSOCIATE_BACHELOR_UPGRADE",
+    "title": "Heads Up: Justifying the Course Choice is Key",
+    "description": [
+      "This is one of the most critical parts of the visa application. The visa officer needs to see a **logical connection** between the student's past experience and their chosen course in Australia.",
+      "**Why it Matters:** If the new course seems random or unrelated to their current job, it raises a major **red flag**. The officer might suspect the student is not a 'Genuine Student' and is only using the visa to work, leading to a refusal.",
+      "**Consultant's Role:** Please have a serious discussion with the student. If the course is not a clear career upgrade or a logical next step, the consultant must help them build a strong, believable story in their Statement of Purpose that explains **why this specific course is essential for their future career goals**."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Work rights info",
+    "hideDefaultCloseButton": true
+  },
+  "BACHELOR_DNF_WORKING_BACHELOR": {
+    "id": "BACHELOR_DNF_WORKING_BACHELOR",
+    "title": "Heads Up: Justifying the Course Choice is Key",
+    "description": [
+      "This is one of the most critical parts of the visa application. The visa officer needs to see a **logical connection** between the student's past experience and their chosen course in Australia.",
+      "**Why it Matters:** If the new course seems random or unrelated to their current job, it raises a major **red flag**. The officer might suspect the student is not a 'Genuine Student' and is only using the visa to work, leading to a refusal.",
+      "**Consultant's Role:** Please have a serious discussion with the student. If the course is not a clear career upgrade or a logical next step, the consultant must help them build a strong, believable story in their Statement of purpose that explains **why this specific course is essential for their future career goals**."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Course selection info",
+    "hideDefaultCloseButton": true
+  },
+  "BACHELOR_EQUIVALENT": {
+    "id": "BACHELOR_EQUIVALENT",
+    "title": "Heads Up: Building a Strong Case for a Second Bachelor's Degree",
+    "description": [
+      "Applying for a second bachelor's degree can be a **red flag** for visa officers. They will be looking for a **clear, logical reason** for this choice and may question if the student is genuinely pursuing education or just trying to extend their stay.",
+      "**Consultant's role is crucial:** To build a strong case, the consultant must help the student prove that the new program offers a **significant, demonstrable skill upgrade** or is an essential step towards a **new, well-justified career path**. A vague explanation will likely result in a refusal."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Warning illustration",
+    "hideDefaultCloseButton": true
+  }
+}

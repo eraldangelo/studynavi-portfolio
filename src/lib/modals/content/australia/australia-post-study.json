@@ -1,0 +1,100 @@
+{
+  "AUSTRALIA_POST_GRADUATE_VISA_INFO": {
+    "id": "AUSTRALIA_POST_GRADUATE_VISA_INFO",
+    "title": "Subclass 485: Temporary Graduate Visa Information",
+    "description": [
+      "The **Post-Higher Education Work stream** allows international students to live, study, and work in Australia temporarily after they have finished their studies.",
+      "**Key Eligibility:**",
+      {
+        "list": [
+          "**Age:** Must be **35 years of age or under** when the student applies.",
+          "**Qualification:** Must have a recent degree in a **CRICOS-registered course**.",
+          "**Police Check:** Must provide evidence the student has applied for an **Australian Federal Police check** when they apply.",
+          "**English Test:** Must provide evidence of the required level of English with the application."
+        ]
+      },
+      "**Visa Duration:** **2 Years**",
+      "The student might qualify for the **Second Post-Higher Education Work stream** if:",
+      {
+        "list": [
+          "The **regional location** of the educational institution from which the student graduated led to the grant of their first Temporary Graduate visa.",
+          "The **regional area** that the student lives in as the holder of their Temporary Graduate visa is in the Post-Higher Education Work, Post-Study Work, or Replacement stream."
+        ]
+      },
+      "If the student:",
+      {
+        "list": [
+          "Studied and live in a **Category 2 area (1 year)** (exceptions apply for Tasmania).",
+          "Studied and live in a **Category 3 area (2 years)**."
+        ]
+      },
+      "See [Designated regional areas](https://immi.homeaffairs.gov.au/visas/working-in-australia/regional-migration/eligible-regional-areas).",
+      "<hr class=\"my-4\" />",
+      "For more information about the Post-Higher Education Work stream, [click here](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work).",
+      "For more information about the Second Post-Higher Education Work stream, [click here](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/second-post-higher-education-work)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Post-graduate visa information",
+    "hideDefaultCloseButton": true
+  },
+  "AUSTRALIA_POST_GRADUATE_VISA_VOCATIONAL_INFO": {
+    "id": "AUSTRALIA_POST_GRADUATE_VISA_VOCATIONAL_INFO",
+    "title": "Subclass 485: Temporary Graduate Visa Information",
+    "description": [
+      "The **Post-Vocational Education Work stream** allows international students to live, study, and work in Australia temporarily after they have finished their studies.",
+      "**Key Eligibility:**",
+      {
+        "list": [
+          "**Age:** Must be **35 years of age or under** when the student applies.",
+          "**Qualification:** The student must have an associate degree, diploma, or trade qualification relevant to an occupation on the [skilled occupation list](https://immi.homeaffairs.gov.au/visas/working-in-australia/skill-occupation-list).",
+          "**Skills Assessment:** The student must have applied for a skills assessment in their nominated occupation on the skilled occupation list.",
+          "**Police Check:** The student must provide evidence that they have applied for an Australian Federal Police check.",
+          "**English Test:** The student must provide evidence of the required level of English with their application."
+        ]
+      },
+      "**Visa Duration:** 18 months",
+      "For more information, [click here](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-vocational-education-work#About)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Post-graduate vocational visa information",
+    "hideDefaultCloseButton": true
+  },
+  "AUSTRALIA_POST_GRADUATE_VISA_RESEARCH_INFO": {
+    "id": "AUSTRALIA_POST_GRADUATE_VISA_RESEARCH_INFO",
+    "title": "Subclass 485: Temporary Graduate Visa Information",
+    "description": [
+      "The **Post-Higher Education Work stream** allows international students to live, study, and work in Australia temporarily after they have finished their studies.",
+      "**Key Eligibility:**",
+      {
+        "list": [
+          "**Age:** Must be **50 years of age or under** when the student applies.",
+          "**Qualification:** Must have a recent degree in a **CRICOS-registered course**.",
+          "**Police Check:** Must provide evidence the student has applied for an **Australian Federal Police check** when they apply.",
+          "**English Test:** Must provide evidence of the required level of English with the application."
+        ]
+      },
+      "**Visa Duration:** **3 Years**",
+      "The student might qualify for the **Second Post-Higher Education Work stream** if:",
+      {
+        "list": [
+          "The **regional location** of the educational institution from which the student graduated led to the grant of their first Temporary Graduate visa.",
+          "The **regional area** that the student lives in as the holder of their Temporary Graduate visa is in the Post-Higher Education Work, Post-Study Work, or Replacement stream."
+        ]
+      },
+      "If the student:",
+      {
+        "list": [
+          "Studied and live in a **Category 2 area (1 year)** (exceptions apply for Tasmania).",
+          "Studied and live in a **Category 3 area (2 years)**."
+        ]
+      },
+      "See [Designated regional areas](https://immi.homeaffairs.gov.au/visas/working-in-australia/regional-migration/eligible-regional-areas).",
+      "<hr class=\"my-4\" />",
+      "For more information about the Post-Higher Education Work stream, [click here](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work).",
+      "For more information about the Second Post-Higher Education Work stream, [click here](https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/second-post-higher-education-work)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Post-graduate visa information for research students",
+    "hideDefaultCloseButton": true
+  }
+}

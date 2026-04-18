@@ -1,0 +1,219 @@
+{
+  "NZ_MEDICAL_EXAM_INFO": {
+    "id": "NZ_MEDICAL_EXAM_INFO",
+    "title": "New Zealand Visa: Medical Examination (Philippines)",
+    "description": [
+      "Required for all Filipino students staying for more than 6 months, the medical process for a New Zealand student visa is similar to Australia's but uses different terminology and specific clinics.",
+      "**The \"Upfront Medical\" Option**",
+      "Students are highly encouraged to complete their medical exam before lodging the visa application to avoid \"Stop-Start\" processing delays.",
+      {
+        "list": [
+          "**How it works:** The student does not need a referral letter from Immigration NZ. Simply book an \"Upfront\" appointment at a panel clinic.",
+          "**NZER Number:** After the exam, the clinic will give the student an eMedical Information Sheet containing a unique NZER number.",
+          "**Integration:** The student enters this NZER number directly into their RealMe/ADEPT online application, allowing the system to link their health results automatically.",
+          "[red blinking warning icon] **Critical Identity Requirement:** The Name, Passport Number, and Birthdate on the student's eMedical record must match their passport exactly. If there is a typo, the system cannot link the results, and the student may be required to redo the exam at their own expense."
+        ]
+      },
+      "**Authorized Panel Clinics**",
+      "The student must use a clinic approved by Immigration New Zealand. Results from regular hospitals or family doctors will not be accepted.",
+      {
+        "table": {
+          "headers": [
+            "Location",
+            "Clinic"
+          ],
+          "rows": [
+            [
+              "Manila (Ermita)",
+              "[St. Lukeâ€™s Medical Center Extension Clinic (SLEC)](https://slec.ph/registration/other/)"
+            ],
+            [
+              "Manila (BGC)",
+              "[St. Lukeâ€™s Medical Center Extension Clinic (SLEC)](https://slec.ph/registration/other/)"
+            ],
+            [
+              "Manila (Makati)",
+              "[IOM Manila Health Centre (Trafalgar St.)](https://philippines.iom.int/manila-health-centre)"
+            ],
+            [
+              "Manila (Makati)",
+              "[Nationwide Health Systems (NHS)](https://nhsgroup.ph/makati.html)"
+            ],
+            [
+              "Cebu City",
+              "[Nationwide Health Systems (NHS)](https://nhsgroup.ph/cebu.html)"
+            ],
+            [
+              "Davao City",
+              "[Nationwide Health Systems (NHS)](https://nhsgroup.ph/davao.html)"
+            ],
+            [
+              "Baguio City",
+              "[Nationwide Health Systems (NHS)](https://nhsgroup.ph/baguio.html)"
+            ]
+          ]
+        }
+      },
+      "**What to bring?**",
+      {
+        "list": [
+          "**Original Passport:** Physical passport is required; photocopies or digital copies are not accepted.",
+          "**Medical History:** If the student has a history of TB, heart conditions, or major surgeries, they must bring the official Medical Certificate/Reports and previous X-rays (if less than 6 months old).",
+          "**Vaccination Records:** Bring COVID-19 and childhood immunization records if available.",
+          "**Eyeglasses/Contacts:** Bring these if used for the vision test."
+        ]
+      },
+      "**Pro-Tips for Filipino Students**",
+      {
+        "list": [
+          "**Menstrual Cycle:** Female applicants must not schedule their medical during their period. Clinics require a wait of at least 5â€“7 days after the period ends before performing the urinalysis.",
+          "**No Fasting:** Unlike some local check-ups, fasting is not required for NZ immigration medicals. The student should eat a light meal before the appointment.",
+          "**Photos:** Most 2025 panel clinics take a digital photo on-site for the eMedical system, but it is always safer to bring 2â€“3 recent passport-sized photos with a white background just in case."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Medical exam information for New Zealand visa",
+    "hideDefaultCloseButton": true
+  },
+  "NZ_VISA_PROCESSING_TIME": {
+    "id": "NZ_VISA_PROCESSING_TIME",
+    "title": "New Zealand Student Visa: Processing Times",
+    "description": [
+      "For more information about current wait times, please visit the [official Immigration New Zealand Student Visa Wait Times page](https://www.immigration.govt.nz/study/for-education-providers/data-and-processing-times-for-international-student-visas/student-visa-wait-times/)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "NZ Visa processing time info",
+    "hideDefaultCloseButton": true
+  },
+  "NZ_APPROVAL_IN_PRINCIPLE": {
+    "id": "NZ_APPROVAL_IN_PRINCIPLE",
+    "title": "New Zealand Visa: Approval in Principle (AIP)",
+    "description": [
+      "This is the **'Conditional Approval'** stage. It means Immigration New Zealand (INZ) has verified the student's documents, health, and **'Bona Fide'** status and is ready to grant the visa once final financial steps are completed.",
+      "**What is AIP?**",
+      "In the Philippines, the AIP process is used to protect the studentâ€™s funds. The student does not need to pay the large tuition fee until after INZ confirms they intend to approve the visa.",
+      "**How it Works (The 2-Step Approval)**",
+      {
+        "list": [
+          "**AIP Letter Received:** The student receives an email from INZ stating their application is 'Approved in Principle.'",
+          "**Fulfilling Conditions:** The letter will list 1 or 2 final requirements (usually tuition payment) that must be met within a specific timeframe (typically 10â€“15 working days)."
+        ]
+      },
+      "**The Final Requirements**",
+      "Once the student has the AIP letter, they must complete the following to get their actual e-Visa:",
+      {
+        "list": [
+          "**Tuition Fee Payment:** The student must pay the first year (or first program) of tuition fees to their NZ school.",
+          "**Evidence:** Provide the Official Receipt issued by the NZ institution.",
+          "**Funds Transfer Scheme (FTS):** If requested in the AIP letter, the student may need to open an ANZ Bank account and transfer their living expenses ($20,000 NZD) into it. This is common for students whose financial backgrounds require extra verification.",
+          "**Unconditional Offer:** If the initial offer was 'Conditional' (e.g., waiting for final grades), the student must now provide the final Unconditional Offer of Place."
+        ]
+      },
+      "**Important Deadlines**",
+      {
+        "list": [
+          "**Payment Window:** The student usually has a very strict window to send the receipts back to INZ. If this deadline is missed, the AIP may expire, and the student might have to start the application over.",
+          "**Currency Fluctuations:** Since tuition is paid after AIP, be aware that the PHP to NZD exchange rate may have shifted since the application was first made."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "AIP info",
+    "hideDefaultCloseButton": true
+  },
+  "NEW_ZEALAND_OFFER_OF_PLACE_INFO": {
+    "id": "NEW_ZEALAND_OFFER_OF_PLACE_INFO",
+    "title": "Received the Student's Offer of Place",
+    "description": [
+      "Once the Offer of Place is received, please double-check all of the student's information to ensure it is correct.",
+      "**Accuracy Check:** If all details (name, date of birth, course dates) are accurate, we can proceed with the student visa application immediately.",
+      "**Conditional Offers:** The student can now apply for their visa with a Conditional Offer of Place. Immigration New Zealand can start assessing the application and may issue an \"Approval in Principle\" (AIP) while the student waits for final results.",
+      "**Corrections:** If any errors are found, the student must notify their assigned consultant immediately.",
+      "**Timeline:** Receiving an updated Offer of Place typically takes an additional 3â€“5 business days.",
+      "**Note:** While the student can apply with a conditional offer, they must provide the final Unconditional Offer of Place before the visa can be fully granted."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Offer of Place document",
+    "hideDefaultCloseButton": true
+  },
+  "NZ_VISA_LODGEMENT_INFO": {
+    "id": "NZ_VISA_LODGEMENT_INFO",
+    "title": "New Zealand Visa Lodgement: Philippines",
+    "description": [
+      "For Filipino students applying for the Fee-Paying Student Visa or Pathway Student Visa.",
+      "**The Pre-Lodgement Essentials**",
+      "Our team will help the student lodge their information. In 2025, there are two ways to lodge, but one is now highly restricted.",
+      "**Online Lodgement (The \"ADEPT\" Enhanced System)**",
+      {
+        "list": [
+          "**RealMe Login:** The student must first create a [RealMe account](https://login.realme.govt.nz/32179062-92f6-4eb0-89bc-df400a9e0367/oauth2/v2.0/authorize?p=B2C_1A_DIA_RealMe_Home&client_id=5e90bca8-7dd9-4399-8863-340a4c002ce7&redirect_uri=https://api.realme.govt.nz/sls/continue&scope=openid&state=home&response_type=code&prompt=login). This is the secure portal used to access the application.",
+          "**ADEPT System:** Once logged in via RealMe, the student will be automatically directed to the ADEPT (Enhanced Immigration Online) platform. This is a \"smart form\" that customizes questions based on the student's specific situation.",
+          "**Upfront Medical:** We must enter the student's NZER number in the ADEPT form so the system can instantly verify their health results."
+        ]
+      },
+      "**Paper-Based Lodgement (Restricted/Phased Out)**",
+      {
+        "list": [
+          "**2025 Rule:** As of September 18, 2025, paper applications for Fee-Paying and Pathway visas are no longer accepted for standard cases.",
+          "**Exceptions:** Paper forms (INZ 1012) are now only used for specific categories (like some Dependent Child visas) or if the student has a formal waiver from INZ.",
+          "**VFS Process:** If a paper application is allowed, it must be physically submitted to VFS Global in Makati or Cebu, which takes much longer to process than the digital ADEPT system."
+        ]
+      },
+      "Please prepare the Statement of Purpose (SOP), which must demonstrate the student is a \"Bona Fide\" student:",
+      {
+        "list": [
+          "**Current Circumstances:** Details about their family, community, and employment ties in the Philippines. This proves they have a strong \"compelling reason\" to return home.",
+          "**Why choose New Zealand?** An explanation of why NZ was chosen over other destinations, and why the course isn't being taken in the Philippines.",
+          "**Course & Provider Choice:** Why this specific course and institution? Students must show they researched the NZQA Level and learning outcomes.",
+          "**Value to Future Career:** How will this NZ qualification directly increase their salary or employability in the Philippines? Be specific about target job titles.",
+          "**Study & Work History:** A logical explanation for any \"career pivots\" (e.g., from Nursing to IT) or any gaps in their study history.",
+          "**Other Relevant Info:** A \"catch-all\" section for travel history and evidence of previous visa compliance."
+        ]
+      },
+      "**Financial Evidence**",
+      {
+        "list": [
+          "**Verification:** Bank statements from the last 6 months are required to show the \"source of wealth.\"",
+          "**Note:** Large \"lump sum\" deposits without a clear explanation (like a property sale or bank loan) are frequently flagged by the ADEPT system's risk algorithms."
+        ]
+      },
+      "[DEPENDENTS_INFO]",
+      "**Payment Method**",
+      {
+        "list": [
+          "**Online (RealMe/ADEPT):** Paid via Credit or Debit Card (Visa/Mastercard) directly in the portal.",
+          "**VFS Fee:** A separate â‚±1,100 PHP fee is paid at VFS for passport handling/scanning services."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "New Zealand visa lodgement info",
+    "hideDefaultCloseButton": true
+  },
+  "NZ_WORK_RIGHTS_INFO": {
+    "id": "NZ_WORK_RIGHTS_INFO",
+    "title": "NZ Student Visa Work Rights (2025/2026)",
+    "description": [
+      "For students studying at Tertiary level (Degrees, Diplomas) or Secondary School (Years 12 & 13).",
+      "**The \"25-Hour Weekly\" Rule**",
+      "Definition of a Week: Any 7-day period (usually Monday to Sunday).",
+      "**While Course is in Session:** As of November 3, 2025, eligible students can work a maximum of 25 hours per week.",
+      "**Important Note:** Unlike Australia, you cannot \"average\" hours over two weeks. If you work 30 hours one week and 20 the next, you have breached your visa.",
+      "**Practical Work:** If your course requires \"Work Placement\" or \"Practicum\" hours (e.g., Nursing or Teaching students), these hours are not part of your 25-hour limit, provided they are a mandatory requirement of your qualification.",
+      "**Holiday Periods**",
+      "**Unlimited Work:** You can work unlimited hours during official scheduled breaks (e.g., Summer/Christmas holidays), provided your course is at least 1 academic year long and worth 120 credits.",
+      "**Masters & PhD:** Students enrolled in a Masters by research or Doctoral (PhD) program have unlimited work rights all year round.",
+      "**Pay & Minimum Wage (2025/2026)**",
+      "**Adult Minimum Wage:** $23.50 NZD per hour (effective April 1, 2025).",
+      "**Starting-Out/Training Wage:** $18.80 NZD per hour (applies to some 16-19 year olds).",
+      "**Key Conditions**",
+      "**Variation of Conditions (VOC):** If your current visa still says \"20 hours,\" you must apply for a VOC and pay the $325 NZD fee before you can legally work the new 25-hour limit.",
+      "**No Working Early:** You cannot begin working until your course has actually started.",
+      "**IRD Number Required:** You must apply for an Inland Revenue (IRD) number to ensure you are taxed correctly.",
+      "**Prohibited Work:** You are strictly forbidden from working in the adult entertainment industry (e.g., sex work)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "NZ Work Rights Info"
+  }
+}

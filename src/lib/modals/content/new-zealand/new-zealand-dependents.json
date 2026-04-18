@@ -1,0 +1,54 @@
+{
+  "NZ_CHILD_SCHOOL_AGE": {
+    "id": "NZ_CHILD_SCHOOL_AGE",
+    "title": "Bringing School-Aged Children (5-19)",
+    "description": [
+      "Children aged 5 to 19 who are dependents of a student can apply for a **Fee-Paying Student Visa** to attend primary or secondary school in New Zealand.",
+      "**Important Considerations:**",
+      {
+        "list": [
+          "**Domestic vs. International Fees:** Unless the primary student visa holder is studying a PhD, their children will be classified as **international students** and must pay international tuition fees for their schooling.",
+          "**School Enrolment:** The student must have an **Offer of Place** from a New Zealand school for their child before the child's visa application can be lodged.",
+          "**Funds:** The student must show evidence of funds to cover both their own living costs and the child's living costs and tuition fees."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "School-aged child information"
+  },
+  "NZ_CHILD_NON_SCHOOL_AGE": {
+    "id": "NZ_CHILD_NON_SCHOOL_AGE",
+    "title": "Bringing Non-School-Aged Children (Under 5)",
+    "description": [
+      "Children under the age of 5 who are dependents of a student can typically apply for a **Visitor Visa**.",
+      "**Key Points:**",
+      {
+        "list": [
+          "**Visa Type:** A Visitor Visa allows the child to stay in New Zealand but does not permit them to enroll in formal schooling.",
+          "**Early Childhood Education:** They may be able to attend an early childhood education (ECE) service, such as a daycare or kindergarten. This does not require a student visa.",
+          "**Funds:** The student must show sufficient funds to support the child's living expenses for the duration of their stay."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Non-school-aged child information"
+  },
+  "NZ_SPOUSE_VISA_INFO": {
+    "id": "NZ_SPOUSE_VISA_INFO",
+    "title": "Partner of a Student Work Visa",
+    "description": [
+      "The partner of a student may be eligible for a **Partner of a Student Work Visa**, which allows them to work in New Zealand.",
+      "**Eligibility Criteria for the Student:**",
+      {
+        "list": [
+          "The student must be studying a **Level 9 or 10 qualification (Master Degree or PhD)**.",
+          "OR, the student must be studying a **Level 7 or 8 qualification** that is on the **Green List**."
+        ]
+      },
+      "If the student's course does not meet these criteria, their partner is generally only eligible for a **Visitor Visa** and will not have work rights.",
+      "For more details, check the [official INZ page](https://www.immigration.govt.nz/new-zealand-visas/visas/visa/partner-of-a-student-work-visa)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Spouse visa information"
+  }
+}

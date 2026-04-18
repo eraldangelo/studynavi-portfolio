@@ -1,0 +1,185 @@
+{
+  "ELICOS_INFO": {
+    "id": "ELICOS_INFO",
+    "title": "Strategic Advice for ELICOS Programs",
+    "description": [
+      "When a student's English scores do not meet the requirements for their main course (like a diploma or degree), ELICOS is the perfect pathway. However, the **length** of the ELICOS program is a critical factor for visa success, especially for Filipino applicants.",
+      "**Our Recommendation:**",
+      {
+        "list": [
+          "**Advised Program Length:** For most students, a **10-week ELICOS course is the safest and most recommended duration**. This shows a clear intent to quickly meet the English requirement and move on to the main course of study.",
+          "**Alternative for Longer Programs:** If the school advises a 20-week program, it is better to **retake the English test** (IELTS, PTE, etc.). Passing the test directly is the strongest possible evidence of English proficiency."
+        ]
+      },
+      "Please advise the student that while a 20-week program is an option, it carries a **higher risk of visa refusal**."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "ELICOS program info",
+    "hideDefaultCloseButton": true
+  },
+  "WORK_RIGHTS_VOCATIONAL_SINGLE": {
+    "id": "WORK_RIGHTS_VOCATIONAL_SINGLE",
+    "title": "VET Student Work Rights (Subclass 500)",
+    "description": [
+      "For students studying Vocational Education and Training (Certificates, Diplomas, or Trade Qualifications).",
+      "**The \"48-Hour Fortnight\" Rule**",
+      {
+        "list": [
+          "**Definition of a Fortnight:** A 14-day period starting on a Monday.",
+          "**While Course is in Session:** The student can work a maximum of 48 hours per fortnight.",
+          "**Practical Work:** If the course requires \"Work Placement\" (e.g., a Chef or Childcare student), those specific hours do not count toward the 48-hour limit, as they are a mandatory part of the study."
+        ]
+      },
+      "**Holiday Periods**",
+      {
+        "list": [
+          "**Unlimited Work:** The student can work unlimited hours during official school breaks."
+        ]
+      },
+      "**Pay & Minimum Wage (2025/2026)**",
+      {
+        "list": [
+          "**National Minimum Wage:** $24.95 AUD per hour (current rate)."
+        ]
+      },
+      "**Key Conditions**",
+      {
+        "list": [
+          "**No Working Early:** The student cannot start working until their first day of class.",
+          "**TFN Required:** The student needs a Tax File Number (TFN) to be paid legally and avoid being taxed at the highest rate."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Work rights info",
+    "hideDefaultCloseButton": true
+  },
+  "WORK_RIGHTS_VOCATIONAL_DEPENDENT": {
+    "id": "WORK_RIGHTS_VOCATIONAL_DEPENDENT",
+    "title": "VET Student Work Rights (Subclass 500)",
+    "description": [
+      "For students studying Vocational Education and Training (Certificates, Diplomas, or Advanced Diplomas).",
+      "**The \"48-Hour Fortnight\" Rule**",
+      {
+        "list": [
+          "**Definition of a Fortnight:** A 14-day period starting on a Monday.",
+          "**While Course is in Session:** The student can work a maximum of 48 hours per fortnight.",
+          "**Practical Work:** If the course requires \"Work Placement\" (e.g., a Chef or Childcare student), those specific hours do not count toward the 48-hour limit, as they are a mandatory part of the study."
+        ]
+      },
+      "**Holiday Periods**",
+      {
+        "list": [
+          "**Unlimited Work:** The student can work unlimited hours during official school breaks."
+        ]
+      },
+      "**Dependent Work Rights (VET Stream)**",
+      "For spouses or partners of students enrolled in Certificates, Diplomas, or Advanced Diplomas.",
+      "**The Work Limit**",
+      {
+        "list": [
+          "**Standard Rule:** Dependents of VET students are limited to 48 hours per fortnight at all times."
+        ]
+      },
+      "**No \"Full-Time\" Holidays:** Unlike the primary student (who can work unlimited hours during school breaks), the dependent is always capped at 48 hours per fortnight, even during the student's summer holidays.",
+      "**Pay & Minimum Wage (2025/2026)**",
+      {
+        "list": [
+          "**National Minimum Wage:** $24.95 AUD per hour (current rate)."
+        ]
+      },
+      "**Key Conditions**",
+      {
+        "list": [
+          "**No Working Early:** The student cannot start working until their first day of class.",
+          "**TFN Required:** The student needs a Tax File Number (TFN) to be paid legally and avoid being taxed at the highest rate."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Work rights info",
+    "hideDefaultCloseButton": true
+  },
+  "ELICOS_WORK_RIGHTS_SINGLE": {
+    "id": "ELICOS_WORK_RIGHTS_SINGLE",
+    "title": "ELICOS Student Work Rights (Subclass 500)",
+    "description": [
+      "For students enrolled in full-time English Language Intensive Courses.",
+      "**The \"48-Hour Fortnight\" Rule**",
+      {
+        "list": [
+          "**While Course is in Session:** The student can work a maximum of 48 hours per fortnight.",
+          "**Intensive Study:** Since ELICOS requires at least 20 hours of face-to-face classes per week, the student must carefully balance their 24 hours of work (average) with their studies.",
+          "**Calculation:** This is a rolling 14-day period starting on a Monday."
+        ]
+      },
+      "**Holiday Periods**",
+      {
+        "list": [
+          "**Unlimited Work:** The student can work unlimited hours during official course breaks.",
+          "**Short Breaks:** ELICOS courses are often shorter (e.g., 10, 20, or 30 weeks). The student only gets unlimited work rights during the breaks between their modules or if they have a scheduled vacation period approved by the school."
+        ]
+      },
+      "**Pay & Minimum Wage (2025/2026)**",
+      {
+        "list": [
+          "**National Minimum Wage:** $24.95 AUD per hour (current rate)."
+        ]
+      },
+      "**Key Conditions**",
+      {
+        "list": [
+          "**No Working Early:** The student cannot start working until their first day of English class.",
+          "**TFN Required:** The student must apply for a Tax File Number (TFN) to ensure they are taxed correctly."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "ELICOS work rights info",
+    "hideDefaultCloseButton": true
+  },
+  "ELICOS_WORK_RIGHTS_DEPENDENT": {
+    "id": "ELICOS_WORK_RIGHTS_DEPENDENT",
+    "title": "ELICOS Student Work Rights (Subclass 500)",
+    "description": [
+      "For students enrolled in full-time English Language Intensive Courses.",
+      "**The \"48-Hour Fortnight\" Rule**",
+      {
+        "list": [
+          "**While Course is in Session:** The student can work a maximum of 48 hours per fortnight.",
+          "**Intensive Study:** Since ELICOS requires at least 20 hours of face-to-face classes per week, the student must carefully balance their 24 hours of work (average) with their studies.",
+          "**Calculation:** This is a rolling 14-day period starting on a Monday."
+        ]
+      },
+      "**Holiday Periods**",
+      {
+        "list": [
+          "**Unlimited Work:** The student can work unlimited hours during official course breaks.",
+          "**Short Breaks:** ELICOS courses are often shorter (e.g., 10, 20, or 30 weeks). The student only gets unlimited work rights during the breaks between their modules or if they have a scheduled vacation period approved by the school."
+        ]
+      },
+      "**Dependent Work Rights (ELICOS)**",
+      {
+        "list": [
+          "**Limited Hours:** If the student brings a partner, they are also capped at 48 hours per fortnight at all times. They do not get unlimited work rights, even when the student is on a school break."
+        ]
+      },
+      "**Pay & Minimum Wage (2025/2026)**",
+      {
+        "list": [
+          "**National Minimum Wage:** $24.95 AUD per hour (current rate)."
+        ]
+      },
+      "**Key Conditions**",
+      {
+        "list": [
+          "**No Working Early:** The student cannot start working until their first day of English class.",
+          "**TFN Required:** The student must apply for a Tax File Number (TFN) to ensure they are taxed correctly."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "ELICOS work rights info",
+    "hideDefaultCloseButton": true
+  }
+}

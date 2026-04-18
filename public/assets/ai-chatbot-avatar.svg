@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="AI Chatbot Avatar">
+  <defs>
+    <linearGradient id="avatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a5cd6" />
+      <stop offset="100%" stop-color="#34b3ff" />
+    </linearGradient>
+    <linearGradient id="headFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#dbeafe" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="64" cy="64" r="62" fill="url(#avatarBg)" />
+  <circle cx="64" cy="64" r="60" fill="none" stroke="#facc15" stroke-width="3" />
+
+  <rect x="33" y="38" width="62" height="50" rx="14" fill="url(#headFill)" stroke="#1e40af" stroke-width="3" />
+  <rect x="44" y="22" width="40" height="12" rx="6" fill="#bfdbfe" stroke="#1e40af" stroke-width="3" />
+  <circle cx="64" cy="20" r="6" fill="#facc15" stroke="#1e40af" stroke-width="3" />
+
+  <circle cx="52" cy="58" r="6" fill="#0a5cd6" />
+  <circle cx="76" cy="58" r="6" fill="#0a5cd6" />
+  <rect x="50" y="72" width="28" height="6" rx="3" fill="#1e3a8a" />
+</svg>

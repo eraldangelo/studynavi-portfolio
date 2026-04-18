@@ -1,0 +1,111 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isAdmin() {
+      return isSignedIn()
+        && request.auth.token.keys().hasAny(['admin'])
+        && request.auth.token.admin == true;
+    }
+
+    function isLegacyStaffCompat() {
+      return isSignedIn()
+        && request.auth.token.keys().hasAny(['legacy_staff_email_fallback'])
+        && request.auth.token.legacy_staff_email_fallback == true
+        && request.auth.token.keys().hasAny(['email'])
+        && request.auth.token.email is string
+        && request.auth.token.keys().hasAny(['email_verified'])
+        && request.auth.token.email_verified == true
+        && request.auth.token.email.matches('(?i).+@example\\.com$');
+    }
+
+    function isStaff() {
+      return isAdmin()
+        || (
+          isSignedIn()
+          && (
+            (
+              request.auth.token.keys().hasAny(['staff'])
+              && request.auth.token.staff == true
+            )
+            || (
+              request.auth.token.keys().hasAny(['support'])
+              && request.auth.token.support == true
+            )
+          )
+        )
+        || isLegacyStaffCompat();
+    }
+
+    function hasValidReportCreateShape() {
+      return request.resource.data.keys().hasOnly([
+        'name',
+        'email',
+        'issue',
+        'screenshotUrl',
+        'status',
+        'createdByUid',
+        'createdByEmail',
+        'createdAt'
+      ]);
+    }
+
+    function hasValidReportCreateValues() {
+      return request.resource.data.name is string
+        && request.resource.data.name.size() > 0
+        && request.resource.data.name.size() <= 200
+        && request.resource.data.email is string
+        && request.resource.data.email.matches('(?i)^[^@\\s]+@example\\.com$')
+        && request.resource.data.issue is string
+        && request.resource.data.issue.size() > 0
+        && request.resource.data.issue.size() <= 5000
+        && (request.resource.data.screenshotUrl == null || request.resource.data.screenshotUrl is string)
+        && request.resource.data.status == 'Submitted'
+        && request.resource.data.createdByUid == request.auth.uid
+        && request.resource.data.createdAt == request.time
+        && (
+          (
+            request.auth.token.keys().hasAny(['email'])
+            && request.auth.token.email is string
+            && request.resource.data.email == request.auth.token.email
+            && request.resource.data.createdByEmail == request.auth.token.email
+          )
+          || (
+            !request.auth.token.keys().hasAny(['email'])
+            && request.resource.data.createdByEmail == null
+          )
+        );
+    }
+
+    // Bug reports are readable by staff, and by their owners.
+    match /reports/{reportId} {
+      allow read: if isStaff() || (isSignedIn() && resource.data.createdByUid == request.auth.uid);
+      allow create: if isSignedIn()
+        && hasValidReportCreateShape()
+        && hasValidReportCreateValues();
+      allow update, delete: if isStaff();
+    }
+
+    // Public read for fees collection, writes only for authenticated admins
+    match /fees/{feeId} {
+      allow read: if true; // public read access for fee lookups
+      allow create, update, delete: if isAdmin();
+    }
+
+    // Education provider directory is readable by authenticated users only.
+    match /educationProviders/{providerId} {
+      allow read: if isSignedIn();
+      allow create, update, delete: if false;
+    }
+
+    // Deny all other access by default
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+
+

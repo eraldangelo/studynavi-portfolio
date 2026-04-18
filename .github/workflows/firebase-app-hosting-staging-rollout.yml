@@ -1,0 +1,167 @@
+﻿name: Firebase App Hosting Staging Rollout
+
+on:
+  push:
+    branches: [ staging ]
+  workflow_dispatch:
+    inputs:
+      deploy_confirmation:
+        description: "Type DEPLOY_STUDIO_STAGING to allow manual staging rollout"
+        required: true
+        default: ""
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    permissions:
+      contents: read
+    concurrency:
+      group: app-hosting-staging-verify-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+
+      - name: Use Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Setup Java
+        uses: actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run verify + smoke gate
+        run: npm run verify:smoke
+
+      - name: Run semantic rules gate
+        run: npm run test:rules
+
+      - name: Run Pathfinder contract gate
+        run: npm run test:contract:pathfinder
+
+      - name: Validate cloud drift credentials
+        env:
+          GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
+        run: |
+          if [ -z "$GCP_SA_KEY_JSON" ]; then
+            echo "GCP_SA_KEY_JSON is required for enforceable cloud-state drift checks."
+            exit 1
+          fi
+
+      - name: Authenticate GCP for cloud drift checks
+        env:
+          GCP_SA_KEY_JSON: ${{ secrets.GCP_SA_KEY_JSON }}
+          GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT || secrets.FIREBASE_PROJECT || 'your-firebase-project-id' }}
+        run: |
+          SA_PATH="$RUNNER_TEMP/gcp-sa.json"
+          printf '%s' "$GCP_SA_KEY_JSON" > "$SA_PATH"
+          gcloud auth activate-service-account --key-file="$SA_PATH"
+          gcloud config set project "$GOOGLE_CLOUD_PROJECT"
+
+      - name: Run enforceable cloud drift gate
+        env:
+          GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT || secrets.FIREBASE_PROJECT || 'your-firebase-project-id' }}
+        run: npm run ops:check:drift:cloud
+
+      - name: Validate claims cutover cloud credentials
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -z "$FIREBASE_SERVICE_ACCOUNT_JSON" ]; then
+            echo "FIREBASE_SERVICE_ACCOUNT_JSON is required for claims-cutover cloud checks."
+            exit 1
+          fi
+
+      - name: Run claims cutover cloud gate
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: npm run check:claims-cutover:cloud
+
+  rollout-staging:
+    needs: verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    environment:
+      name: staging
+      url: ${{ secrets.STAGING_APP_BASE_URL || 'https://staging.your-app.example.com/' }}
+    if: >
+      (github.event_name == 'push' && github.ref == 'refs/heads/staging')
+      || (github.event_name == 'workflow_dispatch' && github.event.inputs.deploy_confirmation == 'DEPLOY_STUDIO_STAGING')
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+
+      - name: Use Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Validate manual deploy confirmation
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          if [ "${{ github.event.inputs.deploy_confirmation }}" != "DEPLOY_STUDIO_STAGING" ]; then
+            echo "Manual staging deploy confirmation mismatch."
+            exit 1
+          fi
+
+      - name: Trigger Firebase App Hosting staging rollout
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_PROJECT: ${{ secrets.FIREBASE_PROJECT || 'your-firebase-project-id' }}
+          FIREBASE_APP_HOSTING_BACKEND: ${{ secrets.FIREBASE_APP_HOSTING_BACKEND_STAGING || 'studio-staging' }}
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          BACKEND="${FIREBASE_APP_HOSTING_BACKEND:-studio-staging}"
+          AUTH_ARGS=()
+
+          if [ -n "$FIREBASE_TOKEN" ]; then
+            AUTH_ARGS=(--token "$FIREBASE_TOKEN")
+          elif [ -n "$FIREBASE_SERVICE_ACCOUNT_JSON" ]; then
+            SA_PATH="$RUNNER_TEMP/firebase-service-account.json"
+            printf '%s' "$FIREBASE_SERVICE_ACCOUNT_JSON" > "$SA_PATH"
+            export GOOGLE_APPLICATION_CREDENTIALS="$SA_PATH"
+          else
+            echo "Missing rollout auth secret (FIREBASE_TOKEN or FIREBASE_SERVICE_ACCOUNT_JSON)."
+            exit 1
+          fi
+
+          npx firebase-tools@15.5.1 apphosting:rollouts:create "$BACKEND" \
+            -b staging \
+            -f \
+            --project "$FIREBASE_PROJECT" \
+            "${AUTH_ARGS[@]}" \
+            --non-interactive
+
+  postdeploy-staging-check:
+    needs: rollout-staging
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    if: always() && needs.rollout-staging.result == 'success'
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+
+      - name: Use Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run staging postdeploy checks
+        env:
+          APP_BASE_URL: ${{ secrets.STAGING_APP_BASE_URL || 'https://staging.your-app.example.com/' }}
+        run: npm run postdeploy:check
+

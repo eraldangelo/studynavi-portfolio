@@ -1,0 +1,165 @@
+{
+  "CANADA_VISA_LODGEMENT_INFO": {
+    "id": "CANADA_VISA_LODGEMENT_INFO",
+    "title": "The Pre-Lodgement Essentials",
+    "description": [
+      "Our team will help the student lodge their application through the [IRCC Secure Portal](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada/portal-application-process.html). Before clicking \"Submit,\" the student must double-check all information, especially the DLI Number and Program Start Dates.",
+      "Since we already have most of the student's required documents (NBI Clearance, e-Medical, [PAL_MENTION]), we will upload them and ensure all forms ([IMM 1294](https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/imm1294.html), [IMM 5707](https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/imm5707.html)) are digitally signed.",
+      "<h4 class=\"font-bold text-base mt-4 text-[#004097]\">The Letter of Explanation (Study Plan)</h4>",
+      "Canada does not use the \"Genuine Student\" label by name, but they require a Letter of Explanation (LOE) that serves the same purpose. It must include:",
+      {
+        "list": [
+          "**Why choose Canada?** Explain why Canada is the preferred destination over other countries (like the US or Australia).",
+          "**Why this specific DLI & Course?** The student must demonstrate they researched the curriculum. Mention specific modules or the schoolâ€™s reputation in their field (e.g., â€œChoosing Conestoga for its specialized STEM labsâ€).",
+          "**Academic Progression:** If the student is a Bachelor's graduate but is applying for a Graduate Certificate, they must explain how this specialization adds value rather than being an academic \"step down.\"",
+          "**Ties to the Philippines (The Most Important Part):** Unlike Australia, Canada is very strict about \"intent to return.\" The student must prove strong ties: Family/Property (family business, land titles, or dependents in the Philippines) or Career Prospects (a specific job offer or a list of companies in the Philippines, e.g., â€œI plan to return to Manila to work as a Senior Cybersecurity Analyst for GCash/Globeâ€).",
+          "**Financial Clarity:** A brief summary of who is paying (Self, Parent, or Sponsor) and proof that the funds are \"liquid\" and available.",
+          "**Study Gaps:** Any gap in education or work must be explained clearly with supporting documents (e.g., \"Helping with family business from 2022-2023\")."
+        ]
+      },
+      "<h4 class=\"font-bold text-base mt-4 text-[#004097]\">Proof of Funds (The 2026 Requirement)</h4>",
+      {
+        "list": [
+          "**Source of Funds:** 4â€“6 months of bank history to prove the money isn't just a \"one-time deposit\" (which leads to instant refusal)."
+        ]
+      },
+      "<h4 class=\"font-bold text-base mt-4 text-[#004097]\">Visa Fees & Payment Method</h4>",
+      "All IRCC fees must be paid online using a credit card or a web-enabled debit card (Visa/Mastercard) before the application can be submitted."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Canada Visa Lodgement",
+    "hideDefaultCloseButton": true
+  },
+  "CANADA_VISA_PROCESSING_TIME": {
+    "id": "CANADA_VISA_PROCESSING_TIME",
+    "title": "Canada: Study Permit Processing Times (2025/2026)",
+    "description": [
+      "For the most accurate and up-to-date information regarding how long your application will take, please use the official [IRCC Processing Times Tools](https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html)."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Visa processing time info",
+    "hideDefaultCloseButton": true
+  },
+  "CANADA_PASSPORT_SUBMISSION_INFO": {
+    "id": "CANADA_PASSPORT_SUBMISSION_INFO",
+    "title": "Canada Visa: Passport Submission Request",
+    "description": [
+      "The final step after your visa is approved to have the visa counterfoil (sticker) placed in your passport.",
+      "**When to Submit**",
+      "**The Trigger:** You will receive a Passport Request Letter (or \"Original Passport Request\") in your IRCC portal once the officer has made a positive decision on your case.",
+      "**The Deadline:** You usually have 30 days from the date of the letter to submit your passport. If you miss this deadline, your application could be refused.",
+      "**How to Submit (Philippines)**",
+      "For Filipinos, you must submit your passport through VFS Global. You have two options:",
+      "**In-Person Submission:** You must book a \"Passport Submission\" appointment on the VFS Canada website.",
+      "**Courier Submission:** You can send your passport via VFSâ€™s two-way courier service (recommended if you are outside Manila or Cebu).",
+      "**What to Bring / Include**",
+      {
+        "list": [
+          "**Original Passport:** Must have at least two blank pages and be valid for at least 6 months.",
+          "**Passport Request Letter:** A printed copy of the letter from IRCC.",
+          "**VFS Consent Form:** One signed form for each applicant.",
+          "**VFS Package Transmission Fee Receipt:** If you did biometrics at a different location or are using a courier, a fee (approx. â‚±700â€“â‚±900) applies.",
+          "**Two (2) Photos:** Specifically following the IRCC photo specifications."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Passport submission information",
+    "hideDefaultCloseButton": true
+  },
+  "CANADA_POE_LETTER_INFO": {
+    "id": "CANADA_POE_LETTER_INFO",
+    "title": "Canada Visa: POE Introduction Letter",
+    "description": [
+      "This is your \"Letter of Introduction\"â€”the document that proves your Study Permit has been approved.",
+      "**What is it?**",
+      "The Port of Entry (POE) Introduction Letter is sent to your IRCC portal shortly after your passport is stamped.",
+      "**Crucial Note:** This letter is NOT your Study Permit. It is the document you show the Border Officer to get your Study Permit.",
+      "**How it Works at the Airport**",
+      "When you land in Canada (at your first point of entry, e.g., Vancouver or Toronto), you must go to the Immigration hall before collecting your checked luggage.",
+      "**Present Documents:** Show the Border Services Officer (BSO) your Passport (with the visa sticker) and a printed copy of your POE Introduction Letter.",
+      "**The Interview:** The officer may ask to see your Letter of Acceptance (LOA) and Proof of Funds one last time.",
+      "**The Issuance:** The officer will then print your physical Study Permit (a piece of paper) and staple it into your passport or hand it to you.",
+      "**Critical Rules for the Student**",
+      {
+        "list": [
+          "**Read the Dates:** Check the \"Permit Validity\" date on your POE letter. You must enter Canada before this date.",
+          "**Don't Forget the Letter:** While it is digital, we strongly recommend bringing two printed copies. If your phone battery dies or you can't access the portal at the airport, you could face long delays.",
+          "**Check the Printing:** Once the officer hands you the physical Study Permit at the airport, check your name and the DLI name immediately. If there is a typo, ask them to fix it before you leave the airport."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "POE Introduction Letter information",
+    "hideDefaultCloseButton": true
+  },
+  "CANADA_VISA_REQUIREMENT_INFO": {
+    "id": "CANADA_VISA_REQUIREMENT_INFO",
+    "title": "Canada Visa Lodgement: English Proficiency",
+    "description": [
+      "Please inform the student that while an official English test (such as IELTS Academic, PTE Academic, or TOEFL) is not strictly mandatory for the visa application itself, it is **highly preferred for a smoother and safer process in 2025**.",
+      "**The \"Admission vs. Visa\" Strategy**",
+      "It is important to manage the student's expectations regarding the difference between school acceptance and embassy approval.",
+      {
+        "list": [
+          "**For DLI Admission:** Many colleges (DLIs) in Canada accept a Medium of Instruction (MOI) certificate from the Philippines. This allows the student to get a Letter of Acceptance (LOA) without taking an English test.",
+          "**For the Visa (IRCC):** Although some students get approved using only MOI, the Canadian Embassy prefers a formal test score. Since the fast-track (SDS) program ended in late 2024, officers have more discretion. Including a test result strengthens the \"Academic Ability\" section of the application and reduces the risk of a \"subjective\" refusal."
+        ]
+      },
+      "**The Future Work Permit Requirement**",
+      "This is the most critical piece of advice for the student: Even if they skip the test for the visa now, **they will need it later**.",
+      "As of November 1, 2024, a language test is a **mandatory legal requirement** to apply for a Post-Graduation Work Permit (PGWP) after they finish their studies:",
+      {
+        "list": [
+          "**College/DLI Graduates:** Must achieve a minimum of CLB 5 (approx. IELTS 5.0) to be eligible to stay and work in Canada."
+        ]
+      }
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Canada Visa English Requirement Info",
+    "primaryButtonText": "Acknowledge"
+  },
+  "CANADA_VISA_REFUSAL_WITH_PAL_INFO": {
+    "id": "CANADA_VISA_REFUSAL_WITH_PAL_INFO",
+    "title": "Action Required: Inquire About PAL",
+    "description": [
+      "Since the student has a recent student visa refusal, please ask if they were given a Provincial Attestation Letter (PAL) when they applied.",
+      "If no PAL was given, it is safe to proceed with the application.",
+      "However, if a PAL was provided and the visa was still refused, please inform the student that reapplying will be challenging due to the **Provincial Attestation Letter Single-Use Rule**."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "PAL rule warning",
+    "primaryButtonText": "Acknowledge"
+  },
+  "CANADA_PAL_RULE_INFO": {
+    "id": "CANADA_PAL_RULE_INFO",
+    "title": "Provincial Attestation Letter (PAL)",
+    "description": [
+      "A Provincial Attestation Letter (PAL) is a mandatory verification document issued by the province or territory where the student plans to study. It serves as proof that the student has been allocated a spot within the annual federal cap on international study permit applications.",
+      "Essentially, it is the provinceâ€™s way of saying, \"We have room for this student in our local infrastructure and housing.\" Without this letter, IRCC will not process the study permit application (unless the student is specifically exempt).",
+      "**Received the Provincial Attestation Letter (PAL)**",
+      "Once the Provincial Attestation Letter is received, please double-check all information against the student's passport and Letter of Acceptance (LOA). In 2026, IRCC systems are strictly automated; any mismatch can lead to an immediate technical refusal.",
+      "**Critical Verification Steps:**",
+      {
+        "list": [
+          "**Personal Details:** Ensure the Full Name and Date of Birth match the passport exactly.",
+          "**PAL Number:** Check that the unique identifier (e.g., ON26-XXXX) is clearly visible.",
+          "**DLI Information:** The school name and campus location on the PAL must match the school on the LOA. You cannot use a PAL from one school to apply for another.",
+          "**Expiry Date:** Most PALs are valid for the current calendar year (expiring Dec 31). If the PAL expires before the visa is lodged, a new one must be requested for the 2026 intake."
+        ]
+      },
+      "**Processing Rules:**",
+      {
+        "list": [
+          "**Payment Requirement:** Most schools will only trigger the PAL request after the student has paid their tuition deposit.",
+          "**Exemptions Check:** Starting January 1, 2026, Master's and PhD students at public universities are exempt from the PAL requirement. Ensure the assigned consultant confirms the exemption status before waiting for this document.",
+          "**Correction Timeline:** If any corrections are needed (e.g., misspelled name), the student must notify their assigned consultant immediately. Requesting a corrected PAL from the provincial ministry can take 7â€“14 business days."
+        ]
+      },
+      "**Consultant Tip:** The PAL is a \"single-use\" document. If a studentâ€™s visa is refused and they decide to re-apply, they must request a brand-new PAL from the school. They cannot reuse the old one for a second application."
+    ],
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/studio-3466606038-537d1.firebasestorage.app/o/StudyNavi.png?alt=media&token=0d4030b0-09e3-4c31-8674-90607eb0af70",
+    "imageAlt": "Provincial Attestation Letter (PAL) Information",
+    "hideDefaultCloseButton": true
+  }
+}
